@@ -1,0 +1,1 @@
+<view><view class="uni-p-b-98">这里是内容块</view><tab-bar vue-id="8dd740cc-1" pagePath="/pages/index/index" bind:__l="__l"></tab-bar></view>

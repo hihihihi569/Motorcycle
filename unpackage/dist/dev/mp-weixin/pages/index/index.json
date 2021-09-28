@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "车主",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discover/index",
+    "pages/message/index",
+    "pages/PersonCore/index",
+    "component/Authentication/Authentication",
+    "component/Violation/Violation",
+    "component/Driver/Driver_list",
+    "component/Driver/Driver_new",
+    "component/advise/advise",
+    "pages/perfer/index",
+    "component/Faces/face",
+    "component/secure/secure",
+    "component/secure/changeMobile",
+    "component/secure/upDatepwd",
+    "component/secure/deleteUser",
+    "component/Contact/contactList",
+    "component/Contact/addContact"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "摩托圈",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light"
+  },
+  "usingComponents": {
+    "tab-bar": "/component/tabBar"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top": "/pages/PersonCore/top",
+    "warm-service": "/pages/PersonCore/warmService",
+    "common-tool": "/pages/PersonCore/commonTool"
+  }
+}

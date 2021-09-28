@@ -1,0 +1,1 @@
+<view><top vue-id="65326354-1" bind:__l="__l"></top><warm-service vue-id="65326354-2" bind:__l="__l"></warm-service><common-tool vue-id="65326354-3" bind:__l="__l"></common-tool><tab-bar vue-id="65326354-4" pagePath="/pages/PersonCore/index" bind:__l="__l"></tab-bar></view>

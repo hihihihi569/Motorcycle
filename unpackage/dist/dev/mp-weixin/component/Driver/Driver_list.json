@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "常用驾驶人",
+  "navigationBarBackgroundColor": "#F6F6F6",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

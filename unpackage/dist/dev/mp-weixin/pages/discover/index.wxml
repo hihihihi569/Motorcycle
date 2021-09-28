@@ -1,0 +1,1 @@
+<view>发现<tab-bar vue-id="47099fc1-1" pagePath="/pages/discover/index" bind:__l="__l"></tab-bar></view>

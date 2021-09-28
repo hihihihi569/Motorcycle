@@ -1,0 +1,256 @@
+{
+	"easycom": {
+		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式
+		// "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "车主",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true //下拉属性
+			}
+		},
+		{
+			"path": "pages/discover/index",
+			"style": {
+				
+					"navigationStyle": "custom",
+				// "navigationBarTitleText": "发现",
+				// "navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true, //下拉属性
+				"onReachBottomDistance": 100 //页面触底距离
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		},
+		{
+			"path": "pages/PersonCore/index",
+			"style": {
+				"navigationStyle": "custom",
+				"h5": {
+					"pullToRefresh": {
+						"color": "#007AFF"
+					}
+				}
+			}
+		},
+		{
+			"path": "component/Authentication/Authentication",
+			"style": {
+				"navigationBarTitleText": "身份验证",
+				"navigationBarBackgroundColor": "#F6F6F6",
+				"navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		}, {
+			"path": "component/Violation/Violation",
+			"style": {
+				"navigationBarTitleText": "违章专区",
+				"navigationBarBackgroundColor": "#F6F6F6",
+				"navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		}, {
+			"path": "component/Driver/Driver_list",
+			"style": {
+				"navigationBarTitleText": "常用驾驶人",
+				"navigationBarBackgroundColor": "#F6F6F6",
+				"navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		}, {
+			"path": "component/Driver/Driver_new",
+			"style": {
+
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "component/advise/advise",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "#F6F6F6",
+				"navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		},
+		{
+			"path": "pages/perfer/index",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Faces/face",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "component/secure/secure",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "账户安全",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		},
+		{
+			"path": "component/secure/changeMobile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+			// "style": {
+			// 	"navigationBarTitleText": "",
+			// 	"navigationBarBackgroundColor": "#fff",
+			// 	"navigationBarTextStyle": "black"
+			// 	// "enablePullDownRefresh": true, //下拉属性
+			// }
+		},
+		{
+			"path": "component/secure/upDatepwd",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/secure/deleteUser",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Contact/contactList",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "紧急联系人",
+				// "navigationBarBackgroundColor": "#F6F6F6",
+				// "navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true, //下拉属性
+			}
+		},
+		{
+			"path": "component/Contact/addContact",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Faces/nickname",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/secure/update_mobile",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Faces/setBirth",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Privacy/Privacy",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Privacy/perfer",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Privacy/policy",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Concerning/concerning",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Concerning/clause_serive",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Concerning/contact_us",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/Concerning/Reporting_center",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "摩托圈",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle": "light" //刷新北京市
+	},
+	// "tabBar": {
+	// 	"list": [{
+	// 			"text": "首页",
+	// 			"pagePath": "pages/index/index",
+	// 			"selectedIconPath": "static/icons/home-active.png",
+	// 			"iconPath": "static/icons/home.png"
+	// 		},
+	// 		{
+	// 			"text": "发现",
+	// 			"pagePath": "pages/discover/discover",
+	// 			"selectedIconPath": "static/icons/cart-active.png",
+	// 			"iconPath": "static/icons/cart.png"
+	// 		},
+	// 		{
+	// 			"text": "消息",
+	// 			"pagePath": "pages/message/message",
+	// 			"selectedIconPath": "static/icons/search-active.png",
+	// 			"iconPath": "static/icons/search.png"
+	// 		},
+	// 		{
+	// 			"text": "我的",
+	// 			"pagePath": "pages/PersonCore/index",
+	// 			"selectedIconPath": "static/icons/my-active.png",
+	// 			"iconPath": "static/icons/my.png"
+	// 		}
+	// 	],
+	// 	"color":"#A5A5A5",
+	// 	"selectedColor":"#0072FF",
+	// 	"backgroundColor":"#F7F7F7",
+	// 	"borderStyle":"white"
+	// },
+
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
