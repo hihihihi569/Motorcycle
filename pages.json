@@ -204,6 +204,31 @@
 			"style": {			
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path": "component/discover/new_discover",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "component/discover/descover_detail",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/carInfo/carInfo",
+			"style": {			
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/index/carList",
+			"style": {			
+				"navigationStyle": "custom"
+			}
 		}
 	],
 	"globalStyle": {

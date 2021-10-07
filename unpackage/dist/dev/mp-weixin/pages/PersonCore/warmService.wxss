@@ -40,14 +40,9 @@
   font-weight: 700;
 }
 .content .serivce.data-v-4b9d9e64 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   padding: 24rpx 0;
 }
 .content .serivce .sericeItem.data-v-4b9d9e64 {

@@ -1,6 +1,6 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
-/* 0 */,
-/* 1 */
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
+
+/***/ 1:
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
   \************************************************************/
@@ -8,7 +8,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
+Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 4);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
 
 function b64DecodeUnicode(str) {
   return decodeURIComponent(atob(str).split('').map(function (c) {
@@ -295,7 +296,7 @@ var promiseInterceptor = {
 
 
 var SYNC_API_RE =
-/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64/;
+/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64|getLocale|setLocale/;
 
 var CONTEXT_API_RE = /^create|Manager$/;
 
@@ -408,6 +409,40 @@ function upx2px(number, newDeviceWidth) {
   return number < 0 ? -result : result;
 }
 
+function getLocale() {
+  // 优先使用 $locale
+  var app = getApp({
+    allowDefault: true });
+
+  if (app && app.$vm) {
+    return app.$vm.$locale;
+  }
+  return wx.getSystemInfoSync().language || 'zh-Hans';
+}
+
+function setLocale(locale) {
+  var app = getApp();
+  if (!app) {
+    return false;
+  }
+  var oldLocale = app.$vm.$locale;
+  if (oldLocale !== locale) {
+    app.$vm.$locale = locale;
+    onLocaleChangeCallbacks.forEach(function (fn) {return fn({
+        locale: locale });});
+
+    return true;
+  }
+  return false;
+}
+
+var onLocaleChangeCallbacks = [];
+function onLocaleChange(fn) {
+  if (onLocaleChangeCallbacks.indexOf(fn) === -1) {
+    onLocaleChangeCallbacks.push(fn);
+  }
+}
+
 var interceptors = {
   promiseInterceptor: promiseInterceptor };
 
@@ -415,6 +450,9 @@ var interceptors = {
 var baseApi = /*#__PURE__*/Object.freeze({
   __proto__: null,
   upx2px: upx2px,
+  getLocale: getLocale,
+  setLocale: setLocale,
+  onLocaleChange: onLocaleChange,
   addInterceptor: addInterceptor,
   removeInterceptor: removeInterceptor,
   interceptors: interceptors });
@@ -745,7 +783,7 @@ function initTriggerEvent(mpInstance) {
   };
 }
 
-function initHook(name, options) {
+function initHook(name, options, isComponent) {
   var oldHook = options[name];
   if (!oldHook) {
     options[name] = function () {
@@ -876,7 +914,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1315,6 +1353,54 @@ function handleEvent(event) {var _this = this;
   }
 }
 
+var locale;
+
+{
+  locale = wx.getSystemInfoSync().language;
+}
+
+var i18n = (0, _uniI18n.initVueI18n)(
+locale,
+{});
+
+var t = i18n.t;
+var i18nMixin = i18n.mixin = {
+  beforeCreate: function beforeCreate() {var _this2 = this;
+    var unwatch = i18n.i18n.watchLocale(function () {
+      _this2.$forceUpdate();
+    });
+    this.$once('hook:beforeDestroy', function () {
+      unwatch();
+    });
+  },
+  methods: {
+    $$t: function $$t(key, values) {
+      return t(key, values);
+    } } };
+
+
+var setLocale$1 = i18n.setLocale;
+var getLocale$1 = i18n.getLocale;
+
+function initAppLocale(Vue, appVm, locale) {
+  var state = Vue.observable({
+    locale: locale || i18n.getLocale() });
+
+  var localeWatchers = [];
+  appVm.$watchLocale = function (fn) {
+    localeWatchers.push(fn);
+  };
+  Object.defineProperty(appVm, '$locale', {
+    get: function get() {
+      return state.locale;
+    },
+    set: function set(v) {
+      state.locale = v;
+      localeWatchers.forEach(function (watch) {return watch(v);});
+    } });
+
+}
+
 var eventChannels = {};
 
 var eventChannelStack = [];
@@ -1488,6 +1574,8 @@ function parseBaseApp(vm, _ref3)
       appOptions[name] = methods[name];
     });
   }
+
+  initAppLocale(_vue.default, vm, wx.getSystemInfoSync().language || 'zh-Hans');
 
   initHooks(appOptions, hooks);
 
@@ -1933,7 +2021,861 @@ var uni$1 = uni;var _default =
 uni$1;exports.default = _default;
 
 /***/ }),
-/* 2 */
+
+/***/ 13:
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode, /* vue-cli only */
+  components, // fixed by xxxxxx auto components
+  renderjs // fixed by xxxxxx renderjs
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // fixed by xxxxxx auto components
+  if (components) {
+    if (!options.components) {
+      options.components = {}
+    }
+    var hasOwn = Object.prototype.hasOwnProperty
+    for (var name in components) {
+      if (hasOwn.call(components, name) && !hasOwn.call(options.components, name)) {
+        options.components[name] = components[name]
+      }
+    }
+  }
+  // fixed by xxxxxx renderjs
+  if (renderjs) {
+    (renderjs.beforeCreate || (renderjs.beforeCreate = [])).unshift(function() {
+      this[renderjs.__module] = this
+    });
+    (options.mixins || (options.mixins = [])).push(renderjs)
+  }
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+
+/***/ 14:
+/*!***********************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/index.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 15));
+
+
+
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 16));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 20));
+
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 21));
+
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 25));
+
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 26));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 27));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 28));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 29));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 30));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 31));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 18));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 17));
+
+var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 32));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 19));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 33));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 34));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 35));
+
+var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 36));
+
+var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 37));
+
+
+
+var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 38);
+
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 39));
+
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 40));
+
+
+
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 41));
+
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+// 引入关于是否mixin集成小程序分享的配置
+// import wxshare from './libs/mixin/mpShare.js'
+// 全局挂载引入http相关请求拦截插件
+function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
+  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
+  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
+  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
+// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
+// let vuexStore = {};
+// try {
+// 	vuexStore = require("@/store/$u.mixin.js");
+// } catch (e) {
+// 	//TODO handle the exception
+// }
+// post类型对象参数转为get类型url参数
+var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
+  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, colorToRgba: _colorGradient.default.colorToRgba, guid: _guid.default, color: _color.default, sys: _sys.sys, os: _sys.os, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get,
+  post: _request.default.post,
+  put: _request.default.put,
+  'delete': _request.default.delete,
+  hexToRgb: _colorGradient.default.hexToRgb,
+  rgbToHex: _colorGradient.default.rgbToHex,
+  test: _test.default,
+  random: _random.default,
+  deepClone: _deepClone.default,
+  deepMerge: _deepMerge.default,
+  getParent: _getParent.default,
+  $parent: _$parent.default,
+  addUnit: _addUnit.default,
+  trim: _trim.default,
+  type: ['primary', 'success', 'error', 'warning', 'info'],
+  http: _request.default,
+  toast: _toast.default,
+  config: _config.default, // uView配置信息相关，比如版本号
+  zIndex: _zIndex.default,
+  debounce: _debounce.default,
+  throttle: _throttle.default };
+
+
+// $u挂载到uni对象上
+uni.$u = $u;
+
+var install = function install(Vue) {
+  Vue.mixin(_mixin.default);
+  if (Vue.prototype.openShare) {
+    Vue.mixin(mpShare);
+  }
+  // Vue.mixin(vuexStore);
+  // 时间格式化，同时两个名称，date和timeFormat
+  Vue.filter('timeFormat', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  Vue.filter('date', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  // 将多久以前的方法，注入到全局过滤器
+  Vue.filter('timeFrom', function (timestamp, format) {
+    return (0, _timeFrom.default)(timestamp, format);
+  });
+  Vue.prototype.$u = $u;
+};var _default =
+
+{
+  install: install };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 15:
+/*!**********************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/mixin/mixin.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
+  data: function data() {
+    return {};
+  },
+  onLoad: function onLoad() {
+    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
+    this.$u.getRect = this.$uGetRect;
+  },
+  methods: {
+    // 查询节点信息
+    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
+    // 解决办法为在组件根部再套一个没有任何作用的view元素
+    $uGetRect: function $uGetRect(selector, all) {var _this = this;
+      return new Promise(function (resolve) {
+        uni.createSelectorQuery().
+        in(_this)[all ? 'selectAll' : 'select'](selector).
+        boundingClientRect(function (rect) {
+          if (all && Array.isArray(rect) && rect.length) {
+            resolve(rect);
+          }
+          if (!all && rect) {
+            resolve(rect);
+          }
+        }).
+        exec();
+      });
+    },
+    getParentData: function getParentData() {var _this2 = this;var parentName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      // 避免在created中去定义parent变量
+      if (!this.parent) this.parent = false;
+      // 这里的本质原理是，通过获取父组件实例(也即u-radio-group的this)
+      // 将父组件this中对应的参数，赋值给本组件(u-radio的this)的parentData对象中对应的属性
+      // 之所以需要这么做，是因为所有端中，头条小程序不支持通过this.parent.xxx去监听父组件参数的变化
+      this.parent = this.$u.$parent.call(this, parentName);
+      if (this.parent) {
+        // 历遍parentData中的属性，将parent中的同名属性赋值给parentData
+        Object.keys(this.parentData).map(function (key) {
+          _this2.parentData[key] = _this2.parent[key];
+        });
+      }
+    },
+    // 阻止事件冒泡
+    preventEvent: function preventEvent(e) {
+      e && e.stopPropagation && e.stopPropagation();
+    } },
+
+  onReachBottom: function onReachBottom() {
+    uni.$emit('uOnReachBottom');
+  },
+  beforeDestroy: function beforeDestroy() {var _this3 = this;
+    // 判断当前页面是否存在parent和chldren，一般在checkbox和checkbox-group父子联动的场景会有此情况
+    // 组件销毁时，移除子组件在父组件children数组中的实例，释放资源，避免数据混乱
+    if (this.parent && uni.$u.test.array(this.parent.children)) {
+      // 组件销毁时，移除父组件中的children数组中对应的实例
+      var childrenList = this.parent.children;
+      childrenList.map(function (child, index) {
+        // 如果相等，则移除
+        if (child === _this3) {
+          childrenList.splice(index, 1);
+        }
+      });
+    }
+  } };
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 16:
+/*!************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/request/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 17));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
+    // 设置全局默认配置
+    value: function setConfig(customConfig) {
+      // 深度合并对象，否则会造成对象深层属性丢失
+      this.config = (0, _deepMerge.default)(this.config, customConfig);
+    }
+
+    // 主要请求部分
+  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      // 检查请求拦截
+      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
+        var tmpConfig = {};
+        var interceptorRequest = this.interceptor.request(options);
+        if (interceptorRequest === false) {
+          // 返回一个处于pending状态中的Promise，来取消原promise，避免进入then()回调
+          return new Promise(function () {});
+        }
+        this.options = interceptorRequest;
+      }
+      options.dataType = options.dataType || this.config.dataType;
+      options.responseType = options.responseType || this.config.responseType;
+      options.url = options.url || '';
+      options.params = options.params || {};
+      options.header = Object.assign({}, this.config.header, options.header);
+      options.method = options.method || this.config.method;
+
+      return new Promise(function (resolve, reject) {
+        options.complete = function (response) {
+          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
+          uni.hideLoading();
+          // 清除定时器，如果请求回来了，就无需loading
+          clearTimeout(_this.config.timer);
+          _this.config.timer = null;
+          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
+          if (_this.config.originalData) {
+            // 判断是否存在拦截器
+            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+              var resInterceptors = _this.interceptor.response(response);
+              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
+              if (resInterceptors !== false) {
+                resolve(resInterceptors);
+              } else {
+                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
+                reject(response);
+              }
+            } else {
+              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
+              resolve(response);
+            }
+          } else {
+            if (response.statusCode == 200) {
+              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+                var _resInterceptors = _this.interceptor.response(response.data);
+                if (_resInterceptors !== false) {
+                  resolve(_resInterceptors);
+                } else {
+                  reject(response.data);
+                }
+              } else {
+                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
+                resolve(response.data);
+              }
+            } else {
+              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
+              // if(response.errMsg) {
+              // 	uni.showModal({
+              // 		title: response.errMsg
+              // 	});
+              // }
+              reject(response);
+            }
+          }
+        };
+
+        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
+        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
+        options.url : '/' + options.url);
+
+        // 是否显示loading
+        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
+        // 而没有清除前者的定时器，导致前者超时，一直显示loading
+        if (_this.config.showLoading && !_this.config.timer) {
+          _this.config.timer = setTimeout(function () {
+            uni.showLoading({
+              title: _this.config.loadingText,
+              mask: _this.config.loadingMask });
+
+            _this.config.timer = null;
+          }, _this.config.loadingTime);
+        }
+        uni.request(options);
+      });
+      // .catch(res => {
+      // 	// 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
+      // 	// 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
+      // 	return new Promise(()=>{});
+      // })
+    } }]);
+
+  function Request() {var _this2 = this;_classCallCheck(this, Request);
+    this.config = {
+      baseUrl: '', // 请求的根域名
+      // 默认的请求头
+      header: {},
+      method: 'POST',
+      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
+      dataType: 'json',
+      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
+      responseType: 'text',
+      showLoading: true, // 是否显示请求中的loading
+      loadingText: '请求中...',
+      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
+      timer: null, // 定时器
+      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
+      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
+    };
+
+    // 拦截器
+    this.interceptor = {
+      // 请求前的拦截
+      request: null,
+      // 请求后的拦截
+      response: null };
+
+
+    // get请求
+    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        method: 'GET',
+        url: url,
+        header: header,
+        data: data });
+
+    };
+
+    // post请求
+    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'POST',
+        header: header,
+        data: data });
+
+    };
+
+    // put请求，不支持支付宝小程序(HX2.6.15)
+    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'PUT',
+        header: header,
+        data: data });
+
+    };
+
+    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
+    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'DELETE',
+        header: header,
+        data: data });
+
+    };
+  }return Request;}();var _default =
+
+new Request();exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 17:
+/*!*****************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/deepMerge.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// JS对象深度合并
+function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  target = (0, _deepClone.default)(target);
+  if (typeof target !== 'object' || typeof source !== 'object') return false;
+  for (var prop in source) {
+    if (!source.hasOwnProperty(prop)) continue;
+    if (prop in target) {
+      if (typeof target[prop] !== 'object') {
+        target[prop] = source[prop];
+      } else {
+        if (typeof source[prop] !== 'object') {
+          target[prop] = source[prop];
+        } else {
+          if (target[prop].concat && source[prop].concat) {
+            target[prop] = target[prop].concat(source[prop]);
+          } else {
+            target[prop] = deepMerge(target[prop], source[prop]);
+          }
+        }
+      }
+    } else {
+      target[prop] = source[prop];
+    }
+  }
+  return target;
+}var _default =
+
+deepMerge;exports.default = _default;
+
+/***/ }),
+
+/***/ 18:
+/*!*****************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/deepClone.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
+function isArray(arr) {
+  return Object.prototype.toString.call(arr) === '[object Array]';
+}
+
+// 深度克隆
+function deepClone(obj) {
+  // 对常见的“非”值，直接返回原来值
+  if ([null, undefined, NaN, false].includes(obj)) return obj;
+  if (typeof obj !== "object" && typeof obj !== 'function') {
+    //原始类型直接返回
+    return obj;
+  }
+  var o = isArray(obj) ? [] : {};
+  for (var i in obj) {
+    if (obj.hasOwnProperty(i)) {
+      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
+    }
+  }
+  return o;
+}var _default =
+
+deepClone;exports.default = _default;
+
+/***/ }),
+
+/***/ 19:
+/*!************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/test.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 验证电子邮箱格式
+                                                                                                      */
+function email(value) {
+  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
+}
+
+/**
+   * 验证手机格式
+   */
+function mobile(value) {
+  return /^1[3-9]\d{9}$/.test(value);
+}
+
+/**
+   * 验证URL格式
+   */
+function url(value) {
+  return /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?/.test(value);
+}
+
+/**
+   * 验证日期格式
+   */
+function date(value) {
+  return !/Invalid|NaN/.test(new Date(value).toString());
+}
+
+/**
+   * 验证ISO类型的日期格式
+   */
+function dateISO(value) {
+  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
+}
+
+/**
+   * 验证十进制数字
+   */
+function number(value) {
+  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
+}
+
+/**
+   * 验证整数
+   */
+function digits(value) {
+  return /^\d+$/.test(value);
+}
+
+/**
+   * 验证身份证号码
+   */
+function idCard(value) {
+  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
+  value);
+}
+
+/**
+   * 是否车牌号
+   */
+function carNo(value) {
+  // 新能源车牌
+  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
+  // 旧车牌
+  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
+  if (value.length === 7) {
+    return creg.test(value);
+  } else if (value.length === 8) {
+    return xreg.test(value);
+  } else {
+    return false;
+  }
+}
+
+/**
+   * 金额,只允许2位小数
+   */
+function amount(value) {
+  //金额，只允许保留两位小数
+  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
+}
+
+/**
+   * 中文
+   */
+function chinese(value) {
+  var reg = /^[\u4e00-\u9fa5]+$/gi;
+  return reg.test(value);
+}
+
+/**
+   * 只能输入字母
+   */
+function letter(value) {
+  return /^[a-zA-Z]*$/.test(value);
+}
+
+/**
+   * 只能是字母或者数字
+   */
+function enOrNum(value) {
+  //英文或者数字
+  var reg = /^[0-9a-zA-Z]*$/g;
+  return reg.test(value);
+}
+
+/**
+   * 验证是否包含某个值
+   */
+function contains(value, param) {
+  return value.indexOf(param) >= 0;
+}
+
+/**
+   * 验证一个值范围[min, max]
+   */
+function range(value, param) {
+  return value >= param[0] && value <= param[1];
+}
+
+/**
+   * 验证一个长度范围[min, max]
+   */
+function rangeLength(value, param) {
+  return value.length >= param[0] && value.length <= param[1];
+}
+
+/**
+   * 是否固定电话
+   */
+function landline(value) {
+  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
+  return reg.test(value);
+}
+
+/**
+   * 判断是否为空
+   */
+function empty(value) {
+  switch (typeof value) {
+    case 'undefined':
+      return true;
+    case 'string':
+      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
+      break;
+    case 'boolean':
+      if (!value) return true;
+      break;
+    case 'number':
+      if (0 === value || isNaN(value)) return true;
+      break;
+    case 'object':
+      if (null === value || value.length === 0) return true;
+      for (var i in value) {
+        return false;
+      }
+      return true;}
+
+  return false;
+}
+
+/**
+   * 是否json字符串
+   */
+function jsonString(value) {
+  if (typeof value == 'string') {
+    try {
+      var obj = JSON.parse(value);
+      if (typeof obj == 'object' && obj) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      return false;
+    }
+  }
+  return false;
+}
+
+
+/**
+   * 是否数组
+   */
+function array(value) {
+  if (typeof Array.isArray === "function") {
+    return Array.isArray(value);
+  } else {
+    return Object.prototype.toString.call(value) === "[object Array]";
+  }
+}
+
+/**
+   * 是否对象
+   */
+function object(value) {
+  return Object.prototype.toString.call(value) === '[object Object]';
+}
+
+/**
+   * 是否短信验证码
+   */
+function code(value) {var len = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
+  return new RegExp("^\\d{".concat(len, "}$")).test(value);
+}var _default =
+
+
+{
+  email: email,
+  mobile: mobile,
+  url: url,
+  date: date,
+  dateISO: dateISO,
+  number: number,
+  digits: digits,
+  idCard: idCard,
+  carNo: carNo,
+  amount: amount,
+  chinese: chinese,
+  letter: letter,
+  enOrNum: enOrNum,
+  contains: contains,
+  range: range,
+  rangeLength: rangeLength,
+  empty: empty,
+  isEmpty: empty,
+  jsonString: jsonString,
+  landline: landline,
+  object: object,
+  array: array,
+  code: code };exports.default = _default;
+
+/***/ }),
+
+/***/ 2:
 /*!******************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js ***!
   \******************************************************************************************/
@@ -7460,7 +8402,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -7481,14 +8423,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -7574,7 +8516,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -7981,900 +8923,8 @@ internalMixin(Vue);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 3 */
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
 
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 4 */
-/*!***************************************!*\
-  !*** D:/uniapp/Motorcycle/pages.json ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \**********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode, /* vue-cli only */
-  components, // fixed by xxxxxx auto components
-  renderjs // fixed by xxxxxx renderjs
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // fixed by xxxxxx auto components
-  if (components) {
-    if (!options.components) {
-      options.components = {}
-    }
-    var hasOwn = Object.prototype.hasOwnProperty
-    for (var name in components) {
-      if (hasOwn.call(components, name) && !hasOwn.call(options.components, name)) {
-        options.components[name] = components[name]
-      }
-    }
-  }
-  // fixed by xxxxxx renderjs
-  if (renderjs) {
-    (renderjs.beforeCreate || (renderjs.beforeCreate = [])).unshift(function() {
-      this[renderjs.__module] = this
-    });
-    (options.mixins || (options.mixins = [])).push(renderjs)
-  }
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
-
-/***/ }),
-/* 13 */
-/*!***********************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/index.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 14));
-
-
-
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 15));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 19));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 20));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 24));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 25));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 26));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 27));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 28));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 29));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 30));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 17));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 16));
-
-var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 31));
-
-
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 18));
-
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 32));
-
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 33));
-
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 34));
-
-var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 35));
-
-var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 36));
-
-
-
-var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 37);
-
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 38));
-
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 39));
-
-
-
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 40));
-
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
-// 引入关于是否mixin集成小程序分享的配置
-// import wxshare from './libs/mixin/mpShare.js'
-// 全局挂载引入http相关请求拦截插件
-function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
-  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
-  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
-  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
-// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
-// let vuexStore = {};
-// try {
-// 	vuexStore = require("@/store/$u.mixin.js");
-// } catch (e) {
-// 	//TODO handle the exception
-// }
-// post类型对象参数转为get类型url参数
-var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
-  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, colorToRgba: _colorGradient.default.colorToRgba, guid: _guid.default, color: _color.default, sys: _sys.sys, os: _sys.os, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get,
-  post: _request.default.post,
-  put: _request.default.put,
-  'delete': _request.default.delete,
-  hexToRgb: _colorGradient.default.hexToRgb,
-  rgbToHex: _colorGradient.default.rgbToHex,
-  test: _test.default,
-  random: _random.default,
-  deepClone: _deepClone.default,
-  deepMerge: _deepMerge.default,
-  getParent: _getParent.default,
-  $parent: _$parent.default,
-  addUnit: _addUnit.default,
-  trim: _trim.default,
-  type: ['primary', 'success', 'error', 'warning', 'info'],
-  http: _request.default,
-  toast: _toast.default,
-  config: _config.default, // uView配置信息相关，比如版本号
-  zIndex: _zIndex.default,
-  debounce: _debounce.default,
-  throttle: _throttle.default };
-
-
-// $u挂载到uni对象上
-uni.$u = $u;
-
-var install = function install(Vue) {
-  Vue.mixin(_mixin.default);
-  if (Vue.prototype.openShare) {
-    Vue.mixin(mpShare);
-  }
-  // Vue.mixin(vuexStore);
-  // 时间格式化，同时两个名称，date和timeFormat
-  Vue.filter('timeFormat', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  Vue.filter('date', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  // 将多久以前的方法，注入到全局过滤器
-  Vue.filter('timeFrom', function (timestamp, format) {
-    return (0, _timeFrom.default)(timestamp, format);
-  });
-  Vue.prototype.$u = $u;
-};var _default =
-
-{
-  install: install };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 14 */
-/*!**********************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/mixin/mixin.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
-  data: function data() {
-    return {};
-  },
-  onLoad: function onLoad() {
-    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
-    this.$u.getRect = this.$uGetRect;
-  },
-  methods: {
-    // 查询节点信息
-    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
-    // 解决办法为在组件根部再套一个没有任何作用的view元素
-    $uGetRect: function $uGetRect(selector, all) {var _this = this;
-      return new Promise(function (resolve) {
-        uni.createSelectorQuery().
-        in(_this)[all ? 'selectAll' : 'select'](selector).
-        boundingClientRect(function (rect) {
-          if (all && Array.isArray(rect) && rect.length) {
-            resolve(rect);
-          }
-          if (!all && rect) {
-            resolve(rect);
-          }
-        }).
-        exec();
-      });
-    },
-    getParentData: function getParentData() {var _this2 = this;var parentName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      // 避免在created中去定义parent变量
-      if (!this.parent) this.parent = false;
-      // 这里的本质原理是，通过获取父组件实例(也即u-radio-group的this)
-      // 将父组件this中对应的参数，赋值给本组件(u-radio的this)的parentData对象中对应的属性
-      // 之所以需要这么做，是因为所有端中，头条小程序不支持通过this.parent.xxx去监听父组件参数的变化
-      this.parent = this.$u.$parent.call(this, parentName);
-      if (this.parent) {
-        // 历遍parentData中的属性，将parent中的同名属性赋值给parentData
-        Object.keys(this.parentData).map(function (key) {
-          _this2.parentData[key] = _this2.parent[key];
-        });
-      }
-    },
-    // 阻止事件冒泡
-    preventEvent: function preventEvent(e) {
-      e && e.stopPropagation && e.stopPropagation();
-    } },
-
-  onReachBottom: function onReachBottom() {
-    uni.$emit('uOnReachBottom');
-  },
-  beforeDestroy: function beforeDestroy() {var _this3 = this;
-    // 判断当前页面是否存在parent和chldren，一般在checkbox和checkbox-group父子联动的场景会有此情况
-    // 组件销毁时，移除子组件在父组件children数组中的实例，释放资源，避免数据混乱
-    if (this.parent && uni.$u.test.array(this.parent.children)) {
-      // 组件销毁时，移除父组件中的children数组中对应的实例
-      var childrenList = this.parent.children;
-      childrenList.map(function (child, index) {
-        // 如果相等，则移除
-        if (child === _this3) {
-          childrenList.splice(index, 1);
-        }
-      });
-    }
-  } };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 15 */
-/*!************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/request/index.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 16));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
-Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
-    // 设置全局默认配置
-    value: function setConfig(customConfig) {
-      // 深度合并对象，否则会造成对象深层属性丢失
-      this.config = (0, _deepMerge.default)(this.config, customConfig);
-    }
-
-    // 主要请求部分
-  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      // 检查请求拦截
-      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
-        var tmpConfig = {};
-        var interceptorRequest = this.interceptor.request(options);
-        if (interceptorRequest === false) {
-          // 返回一个处于pending状态中的Promise，来取消原promise，避免进入then()回调
-          return new Promise(function () {});
-        }
-        this.options = interceptorRequest;
-      }
-      options.dataType = options.dataType || this.config.dataType;
-      options.responseType = options.responseType || this.config.responseType;
-      options.url = options.url || '';
-      options.params = options.params || {};
-      options.header = Object.assign({}, this.config.header, options.header);
-      options.method = options.method || this.config.method;
-
-      return new Promise(function (resolve, reject) {
-        options.complete = function (response) {
-          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
-          uni.hideLoading();
-          // 清除定时器，如果请求回来了，就无需loading
-          clearTimeout(_this.config.timer);
-          _this.config.timer = null;
-          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
-          if (_this.config.originalData) {
-            // 判断是否存在拦截器
-            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-              var resInterceptors = _this.interceptor.response(response);
-              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
-              if (resInterceptors !== false) {
-                resolve(resInterceptors);
-              } else {
-                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
-                reject(response);
-              }
-            } else {
-              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
-              resolve(response);
-            }
-          } else {
-            if (response.statusCode == 200) {
-              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-                var _resInterceptors = _this.interceptor.response(response.data);
-                if (_resInterceptors !== false) {
-                  resolve(_resInterceptors);
-                } else {
-                  reject(response.data);
-                }
-              } else {
-                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
-                resolve(response.data);
-              }
-            } else {
-              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
-              // if(response.errMsg) {
-              // 	uni.showModal({
-              // 		title: response.errMsg
-              // 	});
-              // }
-              reject(response);
-            }
-          }
-        };
-
-        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
-        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
-        options.url : '/' + options.url);
-
-        // 是否显示loading
-        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
-        // 而没有清除前者的定时器，导致前者超时，一直显示loading
-        if (_this.config.showLoading && !_this.config.timer) {
-          _this.config.timer = setTimeout(function () {
-            uni.showLoading({
-              title: _this.config.loadingText,
-              mask: _this.config.loadingMask });
-
-            _this.config.timer = null;
-          }, _this.config.loadingTime);
-        }
-        uni.request(options);
-      });
-      // .catch(res => {
-      // 	// 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
-      // 	// 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
-      // 	return new Promise(()=>{});
-      // })
-    } }]);
-
-  function Request() {var _this2 = this;_classCallCheck(this, Request);
-    this.config = {
-      baseUrl: '', // 请求的根域名
-      // 默认的请求头
-      header: {},
-      method: 'POST',
-      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
-      dataType: 'json',
-      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
-      responseType: 'text',
-      showLoading: true, // 是否显示请求中的loading
-      loadingText: '请求中...',
-      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
-      timer: null, // 定时器
-      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
-      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
-    };
-
-    // 拦截器
-    this.interceptor = {
-      // 请求前的拦截
-      request: null,
-      // 请求后的拦截
-      response: null };
-
-
-    // get请求
-    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        method: 'GET',
-        url: url,
-        header: header,
-        data: data });
-
-    };
-
-    // post请求
-    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'POST',
-        header: header,
-        data: data });
-
-    };
-
-    // put请求，不支持支付宝小程序(HX2.6.15)
-    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'PUT',
-        header: header,
-        data: data });
-
-    };
-
-    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
-    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'DELETE',
-        header: header,
-        data: data });
-
-    };
-  }return Request;}();var _default =
-
-new Request();exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 16 */
-/*!*****************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/deepMerge.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// JS对象深度合并
-function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  target = (0, _deepClone.default)(target);
-  if (typeof target !== 'object' || typeof source !== 'object') return false;
-  for (var prop in source) {
-    if (!source.hasOwnProperty(prop)) continue;
-    if (prop in target) {
-      if (typeof target[prop] !== 'object') {
-        target[prop] = source[prop];
-      } else {
-        if (typeof source[prop] !== 'object') {
-          target[prop] = source[prop];
-        } else {
-          if (target[prop].concat && source[prop].concat) {
-            target[prop] = target[prop].concat(source[prop]);
-          } else {
-            target[prop] = deepMerge(target[prop], source[prop]);
-          }
-        }
-      }
-    } else {
-      target[prop] = source[prop];
-    }
-  }
-  return target;
-}var _default =
-
-deepMerge;exports.default = _default;
-
-/***/ }),
-/* 17 */
-/*!*****************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/deepClone.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
-function isArray(arr) {
-  return Object.prototype.toString.call(arr) === '[object Array]';
-}
-
-// 深度克隆
-function deepClone(obj) {
-  // 对常见的“非”值，直接返回原来值
-  if ([null, undefined, NaN, false].includes(obj)) return obj;
-  if (typeof obj !== "object" && typeof obj !== 'function') {
-    //原始类型直接返回
-    return obj;
-  }
-  var o = isArray(obj) ? [] : {};
-  for (var i in obj) {
-    if (obj.hasOwnProperty(i)) {
-      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
-    }
-  }
-  return o;
-}var _default =
-
-deepClone;exports.default = _default;
-
-/***/ }),
-/* 18 */
-/*!************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/test.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 验证电子邮箱格式
-                                                                                                      */
-function email(value) {
-  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
-}
-
-/**
-   * 验证手机格式
-   */
-function mobile(value) {
-  return /^1[3-9]\d{9}$/.test(value);
-}
-
-/**
-   * 验证URL格式
-   */
-function url(value) {
-  return /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?/.test(value);
-}
-
-/**
-   * 验证日期格式
-   */
-function date(value) {
-  return !/Invalid|NaN/.test(new Date(value).toString());
-}
-
-/**
-   * 验证ISO类型的日期格式
-   */
-function dateISO(value) {
-  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
-}
-
-/**
-   * 验证十进制数字
-   */
-function number(value) {
-  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
-}
-
-/**
-   * 验证整数
-   */
-function digits(value) {
-  return /^\d+$/.test(value);
-}
-
-/**
-   * 验证身份证号码
-   */
-function idCard(value) {
-  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
-  value);
-}
-
-/**
-   * 是否车牌号
-   */
-function carNo(value) {
-  // 新能源车牌
-  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
-  // 旧车牌
-  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
-  if (value.length === 7) {
-    return creg.test(value);
-  } else if (value.length === 8) {
-    return xreg.test(value);
-  } else {
-    return false;
-  }
-}
-
-/**
-   * 金额,只允许2位小数
-   */
-function amount(value) {
-  //金额，只允许保留两位小数
-  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
-}
-
-/**
-   * 中文
-   */
-function chinese(value) {
-  var reg = /^[\u4e00-\u9fa5]+$/gi;
-  return reg.test(value);
-}
-
-/**
-   * 只能输入字母
-   */
-function letter(value) {
-  return /^[a-zA-Z]*$/.test(value);
-}
-
-/**
-   * 只能是字母或者数字
-   */
-function enOrNum(value) {
-  //英文或者数字
-  var reg = /^[0-9a-zA-Z]*$/g;
-  return reg.test(value);
-}
-
-/**
-   * 验证是否包含某个值
-   */
-function contains(value, param) {
-  return value.indexOf(param) >= 0;
-}
-
-/**
-   * 验证一个值范围[min, max]
-   */
-function range(value, param) {
-  return value >= param[0] && value <= param[1];
-}
-
-/**
-   * 验证一个长度范围[min, max]
-   */
-function rangeLength(value, param) {
-  return value.length >= param[0] && value.length <= param[1];
-}
-
-/**
-   * 是否固定电话
-   */
-function landline(value) {
-  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
-  return reg.test(value);
-}
-
-/**
-   * 判断是否为空
-   */
-function empty(value) {
-  switch (typeof value) {
-    case 'undefined':
-      return true;
-    case 'string':
-      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
-      break;
-    case 'boolean':
-      if (!value) return true;
-      break;
-    case 'number':
-      if (0 === value || isNaN(value)) return true;
-      break;
-    case 'object':
-      if (null === value || value.length === 0) return true;
-      for (var i in value) {
-        return false;
-      }
-      return true;}
-
-  return false;
-}
-
-/**
-   * 是否json字符串
-   */
-function jsonString(value) {
-  if (typeof value == 'string') {
-    try {
-      var obj = JSON.parse(value);
-      if (typeof obj == 'object' && obj) {
-        return true;
-      } else {
-        return false;
-      }
-    } catch (e) {
-      return false;
-    }
-  }
-  return false;
-}
-
-
-/**
-   * 是否数组
-   */
-function array(value) {
-  if (typeof Array.isArray === "function") {
-    return Array.isArray(value);
-  } else {
-    return Object.prototype.toString.call(value) === "[object Array]";
-  }
-}
-
-/**
-   * 是否对象
-   */
-function object(value) {
-  return Object.prototype.toString.call(value) === '[object Object]';
-}
-
-/**
-   * 是否短信验证码
-   */
-function code(value) {var len = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
-  return new RegExp("^\\d{".concat(len, "}$")).test(value);
-}var _default =
-
-
-{
-  email: email,
-  mobile: mobile,
-  url: url,
-  date: date,
-  dateISO: dateISO,
-  number: number,
-  digits: digits,
-  idCard: idCard,
-  carNo: carNo,
-  amount: amount,
-  chinese: chinese,
-  letter: letter,
-  enOrNum: enOrNum,
-  contains: contains,
-  range: range,
-  rangeLength: rangeLength,
-  empty: empty,
-  isEmpty: empty,
-  jsonString: jsonString,
-  landline: landline,
-  object: object,
-  array: array,
-  code: code };exports.default = _default;
-
-/***/ }),
-/* 19 */
+/***/ 20:
 /*!*******************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/queryParams.js ***!
   \*******************************************************************************/
@@ -8942,7 +8992,8 @@ function queryParams() {var data = arguments.length > 0 && arguments[0] !== unde
 queryParams;exports.default = _default;
 
 /***/ }),
-/* 20 */
+
+/***/ 21:
 /*!*************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/route.js ***!
   \*************************************************************************/
@@ -8950,7 +9001,7 @@ queryParams;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 21));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 22));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * 并且带有路由拦截功能
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          */var
@@ -9075,17 +9126,19 @@ new Router().route;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 21 */
+
+/***/ 22:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 22);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 23);
 
 /***/ }),
-/* 22 */
+
+/***/ 23:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9116,7 +9169,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 23);
+module.exports = __webpack_require__(/*! ./runtime */ 24);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -9132,7 +9185,8 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 23 */
+
+/***/ 24:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -9863,7 +9917,8 @@ if (hadRuntime) {
 
 
 /***/ }),
-/* 24 */
+
+/***/ 25:
 /*!******************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/timeFormat.js ***!
   \******************************************************************************/
@@ -9924,7 +9979,8 @@ function timeFormat() {var dateTime = arguments.length > 0 && arguments[0] !== u
 timeFormat;exports.default = _default;
 
 /***/ }),
-/* 25 */
+
+/***/ 26:
 /*!****************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/timeFrom.js ***!
   \****************************************************************************/
@@ -9932,7 +9988,7 @@ timeFormat;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 25));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 /**
                                                                                                                                                                                                                                                                                           * 时间戳转为多久之前
@@ -9981,7 +10037,8 @@ function timeFrom() {var dateTime = arguments.length > 0 && arguments[0] !== und
 timeFrom;exports.default = _default;
 
 /***/ }),
-/* 26 */
+
+/***/ 27:
 /*!*********************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/colorGradient.js ***!
   \*********************************************************************************/
@@ -10124,7 +10181,8 @@ function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !=
   colorToRgba: colorToRgba };exports.default = _default;
 
 /***/ }),
-/* 27 */
+
+/***/ 28:
 /*!************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/guid.js ***!
   \************************************************************************/
@@ -10175,7 +10233,8 @@ function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? 
 guid;exports.default = _default;
 
 /***/ }),
-/* 28 */
+
+/***/ 29:
 /*!*************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/color.js ***!
   \*************************************************************************/
@@ -10222,7 +10281,72 @@ var color = {
 color;exports.default = _default;
 
 /***/ }),
-/* 29 */
+
+/***/ 295:
+/*!*********************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/perfer.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NDY4MGIxNS1lOTgyLTJjNDktOTY0Ny1mZmU4MWZlMDY3NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEI1MUIzNjIxQkFFMTFFQ0I2RThCMDExOTREMjkwQjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEI1MUIzNjExQkFFMTFFQ0I2RThCMDExOTREMjkwQjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWI5NGY4YjAtOTdlNi01MDRlLTkxZGQtMTY2MWE1ZWI1YjIxIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6MzgyNDc0MzQtOGJkOC01NTQxLTk2ZWUtNzdmODM2MzRlNTQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+D4rPJgAABL9JREFUeNrcmmuIVVUUx++dGeehpkHZjOMYkgz5yBzMN45iRgqmVD4+FFhEWESaH6pRjFAUXx8iEa0UIxUrSUdhUtMPKeIjpJpURhstRU2QNHLG1/iYuf4X/DcsN3ffc84+F2dqwY8z5+y91173nL332mvtSaZSqcR/UXJitm8PNoEmkApJMzgMymP1LG88Bh+k/GV7nL7zYr7xgbzuAktCthkHqsCgOB3HNbyA14tgb8g2PXjNb80x3iYnZxFYBL4Hs0GHB2BPCVgD6sEPoI/P5FxtTaaz4AWrzjaWfRVhYr3ONldBEZ/lgLfBFavPm6BdOj0u5QNACxsfAHeVss2gH1ir6vgYLnIOzAAH1TP5QevU/awohu9jo9OgAFSAw45lrQF8GMHwx8FG9aO1yBfsznob+exf8EgYw6coRS+r5/I53wWNLLsBqkCh51rcB+ykrvPgRau8G7jO8veCDBcjzrDyXkeHpeATUB7TeRmeAw85yqaBPeDJIMPn0OgWDo9EW0XfFHNiiKxpy0bbLn8h6Aiugo881+FOYCwYBUpBIfgL1IIa/p0d4S+oULO8yuMNyNxYAK5l2FSJ/q856bI2VH60lr8oSsSQWmXgXS6n4sBWgRo1BEUug0pPg78E+8UpyU2eUjo5oiJZDY6r9stBlzT1CuhozFIqX6a/h+HmBTyRoEs1sgP0iKBoLds1W2u+i97gItucAPkh++nIJfgO25abgu3K+Bv0hHkBynqpeTE3wo8dofqaHqL+RG4NUmo4F5rCJHgD/KMqHAGDMyicz3oXPLznlgAnJ5SBamWPvO0loH06ByTjc721EnRyKP6JdVZ4jNVJaoh1cNT5WdkhfT2ty+39+CUwDbzJ+2SGPbuJZGo9VuFaFQ90D4jO1oPh4GiYQOLPEJ0/zOsVD8N1m84Bdc+AljARkMSRL4Xo/G8VtfhEOvorZ5LRoGuQ4aP5SWaqIPi2Q+EJXkd4GG7aXAfnHXXO8joS/A7euc9eDvbHGMXoSfkZ6Jxhgs1UzqQ4wsRMqqCkOkO9XPbRqOw6xGU4YRSdVoXHwPAQBjyq9ibfRDD8LdXXuBD17WXxsnH5+erhx67g1MH7lrvPDaj/CrjN+jURl9CJqm2p+STNnjvDHOVMRH5hCFZk1RnGINvIKX6xKH0NVe276F1XiuOpOKJC+WJfWFvYJlAP6tKkHCSiL4nYR1I5PNGbYwpKshD9jOF2tsWxHz/JvUmuh+5XlZ7x8iyp8uNzmLmSBwPAbzGyUZWgG33CBfArOB4jlX2S+nYzwkpEjfBbg3kqQOnrivJdOZXWoozbbJGVQQmhfQFhnEzepaBnFgyTAGEheMZRvsGVzQrKG1ZZM3s6lYjcAss8ljXDBCZSzfb2UysxNDhT/jBTUKqXx75Mfrpyh69FMPhZNZdsMam4pEqE1qdzii7lenmsU7GeSUw+xbd9M2a29hCd02Krjzp7+QtreIKJxnRvI1v58QbreT8r3Syy1efwajm3nHLY9Af4HDRm8fTBPmA9xu3uVPqRU2Cd7+FVNXlQIpHOt+T/eXgV97iwgdcKMC9kmwpeG1vT8N3MCvQnUWRXnI6TWfgnhOfBEKaYw0gTjwO/A7d8O70nwAB9w7mZyk1ohAAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 296:
+/*!*******************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/edit.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo3MWZmYTdmMi03YWZmLTc5NDQtODk2Zi1mZTlmMmYyYWFhMWYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDI4RjE3MzkxQkFFMTFFQ0JEQ0FDRUIwM0I1MkVFQzkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDI4RjE3MzgxQkFFMTFFQ0JEQ0FDRUIwM0I1MkVFQzkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZGM1MjM3YjEtZTk0MC1jZTQ2LTk4NWYtMzZjNzYwMWNiNDk4IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Yjk0MTVlMjgtZjE2NC0wMjRmLWI5NWUtNGFmNmE4ZWM1ZWQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+t92t8gAAAodJREFUeNrMmE1IVUEUx53JHqVRi0xNpRYlbmwrCIH4gSYmWIhEgasWz3BhK4MWrZ8rDZI2FaQ+RAQJWrXIQNwoJsRT1MJFtAh0U4ILFz3/R87AYZjrffd2Bx34M2fmzHn8OPN5nyryXGZzeYXqBTQEXYA+QOneerUjxynPEGdQvYX6LVcOapEw2jPEewGxBk2zXQ8tYEyNVxAB8VBkoJnbr7mvDvpiYHxl5JWA+AHdpmmA8rCfCJgbDFOlk16YUAnMd9Bf7r4poIoIBhqAmREwb3TCu2Mcmoc2oHYBMw7/gBwPmGeoJrjZoROGSEMN0CcBs+uCgV2NqombuyoBCM1rIm25lhjkGvQZKuN+WiNZ2jXQLe4bVB52xzrUFwLzHaplewzTNKQThmjhdpb7zDT9Zp+ZJgMxAz2NfbIGQZiT8hjISpEZqjsRcxALJAyigIxdgUagR4j5E+uuKRTCGk+H1+Ow8fo/IFaPgxClRNj70IFrkIoJcbQbZGoDtvVEoTHaBwSXO1Fiij1BUPnGZ8ovOlfCYpQniMhFnQYIJ0jMhUkxL6FG6AHGbkUFKU4IQsa0QZFBdMIQS+KNER0kJsTZgJi9WGskJkSKKqg7qcWsTwOEATEQyycFYR/x2ZOCKPj29Q0RetcEQCxCXQYC/nJU16EV9P2zYumlXoH+r47fpe+Zc/CthWbEATEvMwE/vcK3OUNTVmwr+1Zgj1q+Pn5A52AP2xlpQqfrKu8QEHcBsW/5S9m+b8V2Qim2e/hvCVPuieuFfBkJ0sNyFRcElY/Qc+iS40Sd42+Y89Ck5aN/BXo5EZPmQMuHLJMgCJPmi6iuwr/p8F0mSPi2HT560afg+0ntQwEGADcQakwW2FBHAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ 297:
+/*!*******************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/next.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAgCAYAAAAffCjxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmZTMwZjRiOC1hZDBjLTdhNDctOThjNC1mYWQ5ZjM4NTRiODgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODQzQTU3RUMxQkFFMTFFQzlFNDE4MjNEQzlDNUE5MzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODQzQTU3RUIxQkFFMTFFQzlFNDE4MjNEQzlDNUE5MzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTk5MmQ1ZmItZjlmZC0xYzQzLTkxOTUtMzY0MTA4NzI0OWVjIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjRmYjQ0ZDUtNGFkYi1hMDRiLTk3MjAtNDEyZWEyMjNlMzQ2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sfIyFwAAAWBJREFUeNqk1cErhEEYx/HdhwNt4eCG0youznLTJiUODoqTs1ZqD1viLiQHKf6CdXGTkwOiTTntyYHi5s6BouT31ExN0zszz8y89W33fWo/Te+877vl/d3DEo4R1INeSokHoUX0hp7RTg60jLrU+TbaS4UurdlmCsZQC23lYqQ++UeNHIyM70eoXoAdoHIMxMepwv6MWROdhDAqmDG2amFrIYwc81YsRp7VMraCfiUYBa7hOVqSYCTY2QuF/fgwEt4mjM2hbxdGETfvNVoowI5jIY3xyj6N2TqqUcKD/oTerVl/LDSM7tG4MWvzG6Q7ErlFVWP2iOb59pCuqOpAZtEHn0hWNKqQIRci2bUxCRJa0YTa7sEQ4ltRFOKCJtGdhTz4kCKIkSs0YMxu0IwPsaFphfRZCD9fX6Gt1Re7pv7felMQvaKpXERDG7mIhjq5iL5G/Af4iirozHo/i49/AQYA0AJW1ax7hY4AAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ 3:
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ 30:
 /*!*****************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/type2icon.js ***!
   \*****************************************************************************/
@@ -10267,7 +10391,41 @@ function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefi
 type2icon;exports.default = _default;
 
 /***/ }),
-/* 30 */
+
+/***/ 305:
+/*!************************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/Violation.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4YjU2NGFlMi05ZDdlLWQzNGYtYTdhMC1mN2NhYWRjNDliOGIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODdENTBDMjkxQkFFMTFFQzk3MjhBMDgyRTlCMDdFMkEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODdENTBDMjgxQkFFMTFFQzk3MjhBMDgyRTlCMDdFMkEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTZhMDk5MDItMmViMy04ZDQ3LWE5ODAtNmE2ZWQ0M2E0MjZkIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjIzZDczNzQtZGIxNy1iZDQwLWJiZDgtMTM1NmRiMDVhZjUyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+QqmgOgAABF9JREFUeNrsXF1IFUEU3i2L7EctyYoiM6NS0zIhMkLsoR6sRFOLEAr6Iy2LfCkioqfwIXxJTCiIzAwqVPoB8cEkqIyysociwX6IrCyyzLAyvX3n3rM6XXfrXu/f3nvnwOfM/szMmc+z55zZWVUtFosiRVFGSQokEX9JiFZRVdXrg2dl5UaiaAEGgKV1dVe+eFsHzTX42iISgWggBlgsHw02SkmEdJaSCEmEvdMW6v2mCJ8+klbgIYfPxz711Foc9UUeYQYxSx4hfYRpU2wvpdShlEoD8zmbjADC+HI3QCn2C6CNfAdS7h8B4yMw+QUocoBMIMUJ8n8D94FrQA1Iee5JH+ERIjD5UTz5vUCawW2/gPdALx+TtcwAxhjc3wSUMSkW0xMBEtaiOA4k2V16BNQDdzhUdmBCAzoEzgSWAKlAhs5ijNoeRNsGUxKBSUShOAlsFE53AmcIUPzlCPuNRbED2A5MFS5dBPaj34+mIQLKkvlfAqbxqS6ghIiBor1usrQJKIrIGtjJkrwD8jDGbbcSgcFUZ58/tNmFohwYzaeIkCL00+kh5zudfUUOn+oji8F4lU72Y53rMCKys/NusGPLxw1XHeysgEkg+QkUoO1ZL4XinUzIWD5ViLFPOdAuHAXNLxlYXVt7+Z59QrUcmAjU4uZ8BzrcIJBAOUC6t0ggwVinaUwem6QMOmU6QEID/8InAXF6mWUehzI6V/kvMnAtAUWVQEIaFGv2djaIMe+iWAP0sN7V0G2hgc7kaG8By/hUNXB+GBHotBHFuv+RgXMU5y9w3KfwtwltW0c8m2JLqBUjJ4NMezPrQg61CjqG6JDQKIR0ImEL2vbrrjV0yDiHTubZjX1AiO0laFPvAgkUct9YYauPlIzrKE7wIWWv++xuqQAWGZGgu+gSyPgGfBcyP+31+2E+fAocc9G644FIRryLfR0FtDT8CHSNEK5puUalHgmGq08mYzYQjfpb4RJFiXCuU3bXZ5bVI3ShqHWIDycDu4XLhTyXrXokOJVQgWHKE14BsyjNRYfJLmtfbCGvf5OPVimlapMbwuoTxbZf8hqYa5/Gu+PFzEomQRHCphmlgstoTgnc/mImg0tiuNbERNQoQy+FMzxBRCqXLTC3T2ZlAbrR0l4L5ys8QUSisAw2u2g6JriVCDigMGHF1+YHRDzjMgq6j3OnRYQJ9c9+QES3ge4uEyGmrF/9gAjxpe94d/sITfqVABS5ryGJkERIIiQRkghJhCRCEuHnRPQY1IOMiFL1AX7uscJW95mE+NwmS9Vy+WiYSHxrEcUWeu3ewkcpsI6uYLUI2oKLYSQF86OhGtSDzlm2K0Nvk9qDOXzSBnCsFbZ6UIfPDhk+Zfj0uNA3nbQ7/oERnBbBX/DQ13dxjn7eGKgWoTj7N6SDRGRl5dLnQOkG8XyKUF+Pe+cEAFe0Y96k8IaxaBH0xZkj22PbAshwaGsw3N5HNCvBJ4NzVuW/TZB5hCRCT/4IMAC+x35KRooMPQAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 306:
+/*!***********************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/download.png ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpjNTVlMGJjYS00MWIzLWFmNGUtYjM5ZS0zODFiZjI2NzdkMDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTJFNTQwRjMxQkFFMTFFQ0FEQkZDMjk2RUUxQ0FBQjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTJFNTQwRjIxQkFFMTFFQ0FEQkZDMjk2RUUxQ0FBQjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZWU3OTgwMDMtNTFiMy03MjQ4LWFmNGQtOTc4Yzg2MjA4NzExIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NWVkZTNlODEtNmVhOC1iNTQ3LThjNGUt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"
+
+/***/ }),
+
+/***/ 307:
+/*!**********************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/present.png ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmYmQzNDlhMi0yNGMxLWE3NGUtOWIyMS03OGVmYzRmZTkyYjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODBGNzk1REYxQkFFMTFFQ0E3OUVBQ0ZCQTlENDNDMjYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODBGNzk1REUxQkFFMTFFQ0E3OUVBQ0ZCQTlENDNDMjYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDcwNGIzNWMtNmJhYy1mNTRjLWJiNTAtOTM2Yzk1MTQyY2FkIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZWNmNjViNzgtMTlmZi0zZjRjLWJhOTEtN2E3ZTAzNzg3OTMzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+YffCjQAAAyxJREFUeNrsm01oE0EUx3djgiLRi1ojCKI9eAiI+HWRoKJIj4m2h+pBVPCSi1TE+hGqWMFQiBelN8GDH9BKcixiIbZ6sioIERX1JCq2hyoi1bRZ/5N9C+tms4nB3ezHe/DP2w3ZzLzfzryZzGxkRVEkNkkKMQIGwSAYBINobGH9iSzLthSSTHavhZuCZqCuQmH0Y5PXjEEroO3NXNOKaaOmUy1iPbQaikNFCrIRhCJ9PkbXe79r4G5OwmXptNMKhg5CJ72Vpev9kSMQTH8jGHUg9PsuWVrBaCeEan7UT7HtSpYmzf8q3Bk6fQ/1QnfbAUGL3xQEKroGbi+00sY6HIASdLwALaLjx9B9G8sVI9c4QH+2BAEI4k5dhiI+njaUoQxgZE1BpFI9h+BuB2gedTifH7lTM6GCnSX/FeqBXjo4sZt3qKxN0AjUQfGagoiTH0azmfBpK5hA9x+GH9DFWzN8asPGrM+7xKwhXv7RxSAYBINwOYg+ZR80VvVuWZhpk52G9lMGfxjkrrHY4DlHMAgGwSAYhFdALJCP+TzumCHemnnEM2gHlMZP1VdOrEdMzr2OzoeWSOHKXDSR7N7s0HpEWhevKYiMpO4uRaFbTtyaxKeMdrgVeuFgq1Ao3tquUSiMPpDUFeUZn3cNEV8vxasuTNRZxRazvG3QMZKwlB01er4qPVgOLY1HKj9LW6ZvXLAp8Dz5e9B1aAoQflWbhdVyvmYAchLuGrUWezY9+pQiXndBj6ScvNuOIhCHFuQlxHHxr/7h8CYwzyMYBINgEG62CvnfQQcxBD2V1B0uUwsHgUIzjxhwjmAQDIJBuB3EN4Nvi7lh1DgFlaCbwQaRk9/h9ZydRdCDIXuggxhKS0HOESegjYJJ0JOlFmeERw0ePv8PiLIu4SzzYoCGek+3CuKN7rjLozdbX++3rYIQ/5P4og10oLvOY61B1DdHpyKOus+ONnw6H192VDfZ+S6pGz8fPMBhA3QEWk7nxzGHqJm0NbWcr4MxCHfew7nwCiCY7pn8EwiCIf62IJ532impW4Jutx/QE2gIEMbrfcgUBA+fbAyCQTAIBmFpfwQYAIqEBs0QZetkAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ 31:
 /*!*******************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/randomArray.js ***!
   \*******************************************************************************/
@@ -10284,7 +10442,41 @@ function randomArray() {var array = arguments.length > 0 && arguments[0] !== und
 randomArray;exports.default = _default;
 
 /***/ }),
-/* 31 */
+
+/***/ 315:
+/*!***************************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/line-service.png ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxM2ZlOGUxNS00ODdlLTAxNDgtOTEzZi1iYTQ4NGNlMTA5ZDEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0E1QzdGOTExQkFFMTFFQ0I1MzBEQUEyQTg3NEExODUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0E1QzdGOTAxQkFFMTFFQ0I1MzBEQUEyQTg3NEExODUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTgzZmY5NTUtYjcxYS1mZTRhLWE4NTMtNDdkYTgyZGM3MTIxIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NzE2ZGFkMTktNTVmOC0zMDQ4LTk2YTQt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"
+
+/***/ }),
+
+/***/ 316:
+/*!*********************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/driver.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxOWNiZGU5Mi01YzA2LTZhNGYtYjc1Yy1jYWEzMWRkZGNlMjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEYzRERDNzAxQkFFMTFFQ0EwMUFERDE2N0I2QjI3MDciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEYzRERDNkYxQkFFMTFFQ0EwMUFERDE2N0I2QjI3MDciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YWRlYmQ1ZmYtMDc3Yy02YzQ2LTgzODItMWE2MDExYTYzYjI5IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Y2JlYmNmZTgtMzc3Ny1jMDQ2LWFkY2It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"
+
+/***/ }),
+
+/***/ 317:
+/*!*********************************************************!*\
+  !*** D:/uniapp/Motorcycle/pages/static/mine/advise.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkZTRkMmUwNC1lNDNhLTJkNGYtODdjNC00YThmYzBmZDIzNTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0RDRDYzOTQxQkFFMTFFQ0I4MzFEMjVDMTBFMTY5MzQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0RDRDYzOTMxQkFFMTFFQ0I4MzFEMjVDMTBFMTY5MzQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDIwZGJjNTYtNDNkNC1lOTQ5LWJjYjMtYWM5MzdkZWUxN2EzIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZGU1ZmUyMDAtYmUwNC0xYTQ1LThlNmYtMDI2ZmQyMmRkZTAwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ioTXAQAAAvlJREFUeNrsmktoFEEQhntC8HkQHwQVJAS8ia+TL6InEaLCLm5QkKCiOagHTUARLxFEPAgRxBdiInrw4mL24EUFERFPgYBIThGUJL7iQVBMfK5f7fTEIYTNbtiQmekq+LdmJrtM+uvqnuqe8vL5vFEzpkoRKAgFoSAUhIJQEOVatXx4nlc4SaUy23An0EY0O6Zt+o160Q10PZfL/pnoB5JLeYUPQAChjWtnEtbRj9EOYPycCES1jYSGEIQhS/O1fCeGjV+EmtAqtBWds1Fe1AoRkU43PuV4C/qM1kJwIM5hQMfOsNGwGQ0LHNr0vVhEBJPleus74g5BzA6F8/ZU5rrVpT41Zlr/IUHzQ7gtNfr4tFOAgtCESkEoCAWhIBSEgpjSZXjZ1poXgM/Rhmn4ny+Zdu9YVCJCFjVrpqnz1kUnItq9EaJiUymLmQqbbAs8iQ4IH0YPnz06WepTQ0EoCAWhCZUblkpl6nFvUH+VwxDSuGeo2/WhUWt9jc4ROlkqCAWhIHz75TKIlaHjQSdBkCMsN345gNh79HJKMktutBi31/g1CPMixkHefkuJQ/Bi+1Qul/1bURAAkAhqQWdN9EuLpPGngXCnomsNINThbqP60GWpVRqKGIAR9Ap1AqG3oosuIDTjLqK59pKMuYPcqNuJ1ScAluBuooZQuF1AbUD44cQyHAi7cVfRAnupD+0DwAsn9iMAsBB3Ge0JXb6GTgLhW1KTjrEg5LEjpXhL7fk7dAAAj5Keeo4FkQod30VHgfDFhRx8vDlCai0PAyBbYl6xE82PcBulIx/SnuFyQDxAzfyo1DLD/agjBh3eT6cdKjbEAxBf0XG+2FnmDfpsAjMr4iCWSVQA4xa+dbzhHpQg1/LHt5Ncd8ib8TkRhrDdSCnB/zRAHgBHUJ1NEk1X1z1vtDo/yUZnyQbtFZQJDxcbKQUQTmzMEO2fUCOHu9DH0HAxwblTW3XAuI9bIQsy4+9ayXTQNDpHqOnmrYJQEApCQSgIBTEJ+yfAAN6s0BGZ2W0FAAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ 32:
 /*!***************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/addUnit.js ***!
   \***************************************************************************/
@@ -10292,7 +10484,7 @@ randomArray;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
 function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
@@ -10302,7 +10494,8 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 }
 
 /***/ }),
-/* 32 */
+
+/***/ 33:
 /*!**************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/random.js ***!
   \**************************************************************************/
@@ -10322,499 +10515,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 random;exports.default = _default;
 
 /***/ }),
-/* 33 */
-/*!************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/trim.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
-  if (pos == 'both') {
-    return str.replace(/^\s+|\s+$/g, "");
-  } else if (pos == "left") {
-    return str.replace(/^\s*/, '');
-  } else if (pos == 'right') {
-    return str.replace(/(\s*$)/g, "");
-  } else if (pos == 'all') {
-    return str.replace(/\s+/g, "");
-  } else {
-    return str;
-  }
-}var _default =
-
-trim;exports.default = _default;
-
-/***/ }),
-/* 34 */
-/*!*************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/toast.js ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
-  uni.showToast({
-    title: title,
-    icon: 'none',
-    duration: duration });
-
-}var _default =
-
-toast;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 35 */
-/*!*****************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/getParent.js ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-function getParent(name, keys) {
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {var _ret = function () {
-        var data = {};
-        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
-        if (Array.isArray(keys)) {
-          keys.map(function (val) {
-            data[val] = parent[val] ? parent[val] : '';
-          });
-        } else {
-          // 历遍传过来的对象参数
-          for (var i in keys) {
-            // 如果子组件有此值则用，无此值则用父组件的值
-            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
-            if (Array.isArray(keys[i])) {
-              if (keys[i].length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else if (keys[i].constructor === Object) {
-              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
-              if (Object.keys(keys[i]).length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else {
-              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
-              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
-            }
-          }
-        }
-        return { v: data };}();if (typeof _ret === "object") return _ret.v;
-    }
-  }
-
-  return {};
-}
-
-/***/ }),
-/* 36 */
-/*!***************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/$parent.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
-// 值(默认为undefined)，就是查找最顶层的$parent
-function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options && parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      return parent;
-    }
-  }
-  return false;
-}
-
-/***/ }),
-/* 37 */
-/*!***********************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/sys.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
-  return uni.getSystemInfoSync().platform;
-};
-
-function sys() {
-  return uni.getSystemInfoSync();
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 38 */
-/*!****************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/debounce.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timeout = null;
-
-/**
-                                                                                                                         * 防抖原理：一定时间内，只有最后一次操作，再过wait毫秒后才执行函数
-                                                                                                                         * 
-                                                                                                                         * @param {Function} func 要执行的回调函数 
-                                                                                                                         * @param {Number} wait 延时的时间
-                                                                                                                         * @param {Boolean} immediate 是否立即执行 
-                                                                                                                         * @return null
-                                                                                                                         */
-function debounce(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-  // 清除定时器
-  if (timeout !== null) clearTimeout(timeout);
-  // 立即执行，此类情况一般用不到
-  if (immediate) {
-    var callNow = !timeout;
-    timeout = setTimeout(function () {
-      timeout = null;
-    }, wait);
-    if (callNow) typeof func === 'function' && func();
-  } else {
-    // 设置定时器，当最后一次操作后，timeout不会再被清除，所以在延时wait毫秒后执行func回调方法
-    timeout = setTimeout(function () {
-      typeof func === 'function' && func();
-    }, wait);
-  }
-}var _default =
-
-debounce;exports.default = _default;
-
-/***/ }),
-/* 39 */
-/*!****************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/throttle.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timer, flag;
-/**
-                                                                                                                      * 节流原理：在一定时间内，只能触发一次
-                                                                                                                      * 
-                                                                                                                      * @param {Function} func 要执行的回调函数 
-                                                                                                                      * @param {Number} wait 延时的时间
-                                                                                                                      * @param {Boolean} immediate 是否立即执行
-                                                                                                                      * @return null
-                                                                                                                      */
-function throttle(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
-  if (immediate) {
-    if (!flag) {
-      flag = true;
-      // 如果是立即执行，则在wait毫秒内开始时执行
-      typeof func === 'function' && func();
-      timer = setTimeout(function () {
-        flag = false;
-      }, wait);
-    }
-  } else {
-    if (!flag) {
-      flag = true;
-      // 如果是非立即执行，则在wait毫秒内的结束处执行
-      timer = setTimeout(function () {
-        flag = false;
-        typeof func === 'function' && func();
-      }, wait);
-    }
-
-  }
-};var _default =
-throttle;exports.default = _default;
-
-/***/ }),
-/* 40 */
-/*!************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/config/config.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-12-17
-var version = '1.8.3';var _default =
-
-{
-  v: version,
-  version: version,
-  // 主题名称
-  type: [
-  'primary',
-  'success',
-  'info',
-  'error',
-  'warning'] };exports.default = _default;
-
-/***/ }),
-/* 41 */
-/*!************************************************************************!*\
-  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/config/zIndex.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
-/**
- * actionsheet: 999
- * modal: 999
- * navigate: 998
- * tabbar: 998
- * toast: 999
- */var _default =
-
-{
-  toast: 10090,
-  noNetwork: 10080,
-  // popup包含popup，actionsheet，keyboard，picker的值
-  popup: 10075,
-  mask: 10070,
-  navbar: 980,
-  topTips: 975,
-  sticky: 970,
-  indexListSticky: 965 };exports.default = _default;
-
-/***/ }),
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */,
-/* 91 */,
-/* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */,
-/* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */,
-/* 107 */,
-/* 108 */,
-/* 109 */,
-/* 110 */,
-/* 111 */,
-/* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */,
-/* 118 */,
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */,
-/* 124 */,
-/* 125 */,
-/* 126 */
-/*!*********************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/perfer.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0NDY4MGIxNS1lOTgyLTJjNDktOTY0Ny1mZmU4MWZlMDY3NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEI1MUIzNjIxQkFFMTFFQ0I2RThCMDExOTREMjkwQjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEI1MUIzNjExQkFFMTFFQ0I2RThCMDExOTREMjkwQjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWI5NGY4YjAtOTdlNi01MDRlLTkxZGQtMTY2MWE1ZWI1YjIxIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6MzgyNDc0MzQtOGJkOC01NTQxLTk2ZWUtNzdmODM2MzRlNTQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+D4rPJgAABL9JREFUeNrcmmuIVVUUx++dGeehpkHZjOMYkgz5yBzMN45iRgqmVD4+FFhEWESaH6pRjFAUXx8iEa0UIxUrSUdhUtMPKeIjpJpURhstRU2QNHLG1/iYuf4X/DcsN3ffc84+F2dqwY8z5+y91173nL332mvtSaZSqcR/UXJitm8PNoEmkApJMzgMymP1LG88Bh+k/GV7nL7zYr7xgbzuAktCthkHqsCgOB3HNbyA14tgb8g2PXjNb80x3iYnZxFYBL4Hs0GHB2BPCVgD6sEPoI/P5FxtTaaz4AWrzjaWfRVhYr3ONldBEZ/lgLfBFavPm6BdOj0u5QNACxsfAHeVss2gH1ir6vgYLnIOzAAH1TP5QevU/awohu9jo9OgAFSAw45lrQF8GMHwx8FG9aO1yBfsznob+exf8EgYw6coRS+r5/I53wWNLLsBqkCh51rcB+ykrvPgRau8G7jO8veCDBcjzrDyXkeHpeATUB7TeRmeAw85yqaBPeDJIMPn0OgWDo9EW0XfFHNiiKxpy0bbLn8h6Aiugo881+FOYCwYBUpBIfgL1IIa/p0d4S+oULO8yuMNyNxYAK5l2FSJ/q856bI2VH60lr8oSsSQWmXgXS6n4sBWgRo1BEUug0pPg78E+8UpyU2eUjo5oiJZDY6r9stBlzT1CuhozFIqX6a/h+HmBTyRoEs1sgP0iKBoLds1W2u+i97gItucAPkh++nIJfgO25abgu3K+Bv0hHkBynqpeTE3wo8dofqaHqL+RG4NUmo4F5rCJHgD/KMqHAGDMyicz3oXPLznlgAnJ5SBamWPvO0loH06ByTjc721EnRyKP6JdVZ4jNVJaoh1cNT5WdkhfT2ty+39+CUwDbzJ+2SGPbuJZGo9VuFaFQ90D4jO1oPh4GiYQOLPEJ0/zOsVD8N1m84Bdc+AljARkMSRL4Xo/G8VtfhEOvorZ5LRoGuQ4aP5SWaqIPi2Q+EJXkd4GG7aXAfnHXXO8joS/A7euc9eDvbHGMXoSfkZ6Jxhgs1UzqQ4wsRMqqCkOkO9XPbRqOw6xGU4YRSdVoXHwPAQBjyq9ibfRDD8LdXXuBD17WXxsnH5+erhx67g1MH7lrvPDaj/CrjN+jURl9CJqm2p+STNnjvDHOVMRH5hCFZk1RnGINvIKX6xKH0NVe276F1XiuOpOKJC+WJfWFvYJlAP6tKkHCSiL4nYR1I5PNGbYwpKshD9jOF2tsWxHz/JvUmuh+5XlZ7x8iyp8uNzmLmSBwPAbzGyUZWgG33CBfArOB4jlX2S+nYzwkpEjfBbg3kqQOnrivJdOZXWoozbbJGVQQmhfQFhnEzepaBnFgyTAGEheMZRvsGVzQrKG1ZZM3s6lYjcAss8ljXDBCZSzfb2UysxNDhT/jBTUKqXx75Mfrpyh69FMPhZNZdsMam4pEqE1qdzii7lenmsU7GeSUw+xbd9M2a29hCd02Krjzp7+QtreIKJxnRvI1v58QbreT8r3Syy1efwajm3nHLY9Af4HDRm8fTBPmA9xu3uVPqRU2Cd7+FVNXlQIpHOt+T/eXgV97iwgdcKMC9kmwpeG1vT8N3MCvQnUWRXnI6TWfgnhOfBEKaYw0gTjwO/A7d8O70nwAB9w7mZyk1ohAAAAABJRU5ErkJggg=="
-
-/***/ }),
-/* 127 */
-/*!*******************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/edit.png ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo3MWZmYTdmMi03YWZmLTc5NDQtODk2Zi1mZTlmMmYyYWFhMWYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDI4RjE3MzkxQkFFMTFFQ0JEQ0FDRUIwM0I1MkVFQzkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDI4RjE3MzgxQkFFMTFFQ0JEQ0FDRUIwM0I1MkVFQzkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZGM1MjM3YjEtZTk0MC1jZTQ2LTk4NWYtMzZjNzYwMWNiNDk4IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Yjk0MTVlMjgtZjE2NC0wMjRmLWI5NWUtNGFmNmE4ZWM1ZWQ5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+t92t8gAAAodJREFUeNrMmE1IVUEUx53JHqVRi0xNpRYlbmwrCIH4gSYmWIhEgasWz3BhK4MWrZ8rDZI2FaQ+RAQJWrXIQNwoJsRT1MJFtAh0U4ILFz3/R87AYZjrffd2Bx34M2fmzHn8OPN5nyryXGZzeYXqBTQEXYA+QOneerUjxynPEGdQvYX6LVcOapEw2jPEewGxBk2zXQ8tYEyNVxAB8VBkoJnbr7mvDvpiYHxl5JWA+AHdpmmA8rCfCJgbDFOlk16YUAnMd9Bf7r4poIoIBhqAmREwb3TCu2Mcmoc2oHYBMw7/gBwPmGeoJrjZoROGSEMN0CcBs+uCgV2NqombuyoBCM1rIm25lhjkGvQZKuN+WiNZ2jXQLe4bVB52xzrUFwLzHaplewzTNKQThmjhdpb7zDT9Zp+ZJgMxAz2NfbIGQZiT8hjISpEZqjsRcxALJAyigIxdgUagR4j5E+uuKRTCGk+H1+Ow8fo/IFaPgxClRNj70IFrkIoJcbQbZGoDtvVEoTHaBwSXO1Fiij1BUPnGZ8ovOlfCYpQniMhFnQYIJ0jMhUkxL6FG6AHGbkUFKU4IQsa0QZFBdMIQS+KNER0kJsTZgJi9WGskJkSKKqg7qcWsTwOEATEQyycFYR/x2ZOCKPj29Q0RetcEQCxCXQYC/nJU16EV9P2zYumlXoH+r47fpe+Zc/CthWbEATEvMwE/vcK3OUNTVmwr+1Zgj1q+Pn5A52AP2xlpQqfrKu8QEHcBsW/5S9m+b8V2Qim2e/hvCVPuieuFfBkJ0sNyFRcElY/Qc+iS40Sd42+Y89Ck5aN/BXo5EZPmQMuHLJMgCJPmi6iuwr/p8F0mSPi2HT560afg+0ntQwEGADcQakwW2FBHAAAAAElFTkSuQmCC"
-
-/***/ }),
-/* 128 */
-/*!*******************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/next.png ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAgCAYAAAAffCjxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmZTMwZjRiOC1hZDBjLTdhNDctOThjNC1mYWQ5ZjM4NTRiODgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODQzQTU3RUMxQkFFMTFFQzlFNDE4MjNEQzlDNUE5MzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODQzQTU3RUIxQkFFMTFFQzlFNDE4MjNEQzlDNUE5MzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTk5MmQ1ZmItZjlmZC0xYzQzLTkxOTUtMzY0MTA4NzI0OWVjIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjRmYjQ0ZDUtNGFkYi1hMDRiLTk3MjAtNDEyZWEyMjNlMzQ2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sfIyFwAAAWBJREFUeNqk1cErhEEYx/HdhwNt4eCG0youznLTJiUODoqTs1ZqD1viLiQHKf6CdXGTkwOiTTntyYHi5s6BouT31ExN0zszz8y89W33fWo/Te+877vl/d3DEo4R1INeSokHoUX0hp7RTg60jLrU+TbaS4UurdlmCsZQC23lYqQ++UeNHIyM70eoXoAdoHIMxMepwv6MWROdhDAqmDG2amFrIYwc81YsRp7VMraCfiUYBa7hOVqSYCTY2QuF/fgwEt4mjM2hbxdGETfvNVoowI5jIY3xyj6N2TqqUcKD/oTerVl/LDSM7tG4MWvzG6Q7ErlFVWP2iOb59pCuqOpAZtEHn0hWNKqQIRci2bUxCRJa0YTa7sEQ4ltRFOKCJtGdhTz4kCKIkSs0YMxu0IwPsaFphfRZCD9fX6Gt1Re7pv7felMQvaKpXERDG7mIhjq5iL5G/Af4iirozHo/i49/AQYA0AJW1ax7hY4AAAAASUVORK5CYII="
-
-/***/ }),
-/* 129 */,
-/* 130 */,
-/* 131 */,
-/* 132 */,
-/* 133 */,
-/* 134 */,
-/* 135 */,
-/* 136 */
-/*!************************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/Violation.png ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4YjU2NGFlMi05ZDdlLWQzNGYtYTdhMC1mN2NhYWRjNDliOGIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODdENTBDMjkxQkFFMTFFQzk3MjhBMDgyRTlCMDdFMkEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODdENTBDMjgxQkFFMTFFQzk3MjhBMDgyRTlCMDdFMkEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTZhMDk5MDItMmViMy04ZDQ3LWE5ODAtNmE2ZWQ0M2E0MjZkIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NjIzZDczNzQtZGIxNy1iZDQwLWJiZDgtMTM1NmRiMDVhZjUyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+QqmgOgAABF9JREFUeNrsXF1IFUEU3i2L7EctyYoiM6NS0zIhMkLsoR6sRFOLEAr6Iy2LfCkioqfwIXxJTCiIzAwqVPoB8cEkqIyysociwX6IrCyyzLAyvX3n3rM6XXfrXu/f3nvnwOfM/szMmc+z55zZWVUtFosiRVFGSQokEX9JiFZRVdXrg2dl5UaiaAEGgKV1dVe+eFsHzTX42iISgWggBlgsHw02SkmEdJaSCEmEvdMW6v2mCJ8+klbgIYfPxz711Foc9UUeYQYxSx4hfYRpU2wvpdShlEoD8zmbjADC+HI3QCn2C6CNfAdS7h8B4yMw+QUocoBMIMUJ8n8D94FrQA1Iee5JH+ERIjD5UTz5vUCawW2/gPdALx+TtcwAxhjc3wSUMSkW0xMBEtaiOA4k2V16BNQDdzhUdmBCAzoEzgSWAKlAhs5ijNoeRNsGUxKBSUShOAlsFE53AmcIUPzlCPuNRbED2A5MFS5dBPaj34+mIQLKkvlfAqbxqS6ghIiBor1usrQJKIrIGtjJkrwD8jDGbbcSgcFUZ58/tNmFohwYzaeIkCL00+kh5zudfUUOn+oji8F4lU72Y53rMCKys/NusGPLxw1XHeysgEkg+QkUoO1ZL4XinUzIWD5ViLFPOdAuHAXNLxlYXVt7+Z59QrUcmAjU4uZ8BzrcIJBAOUC6t0ggwVinaUwem6QMOmU6QEID/8InAXF6mWUehzI6V/kvMnAtAUWVQEIaFGv2djaIMe+iWAP0sN7V0G2hgc7kaG8By/hUNXB+GBHotBHFuv+RgXMU5y9w3KfwtwltW0c8m2JLqBUjJ4NMezPrQg61CjqG6JDQKIR0ImEL2vbrrjV0yDiHTubZjX1AiO0laFPvAgkUct9YYauPlIzrKE7wIWWv++xuqQAWGZGgu+gSyPgGfBcyP+31+2E+fAocc9G644FIRryLfR0FtDT8CHSNEK5puUalHgmGq08mYzYQjfpb4RJFiXCuU3bXZ5bVI3ShqHWIDycDu4XLhTyXrXokOJVQgWHKE14BsyjNRYfJLmtfbCGvf5OPVimlapMbwuoTxbZf8hqYa5/Gu+PFzEomQRHCphmlgstoTgnc/mImg0tiuNbERNQoQy+FMzxBRCqXLTC3T2ZlAbrR0l4L5ys8QUSisAw2u2g6JriVCDigMGHF1+YHRDzjMgq6j3OnRYQJ9c9+QES3ge4uEyGmrF/9gAjxpe94d/sITfqVABS5ryGJkERIIiQRkghJhCRCEuHnRPQY1IOMiFL1AX7uscJW95mE+NwmS9Vy+WiYSHxrEcUWeu3ewkcpsI6uYLUI2oKLYSQF86OhGtSDzlm2K0Nvk9qDOXzSBnCsFbZ6UIfPDhk+Zfj0uNA3nbQ7/oERnBbBX/DQ13dxjn7eGKgWoTj7N6SDRGRl5dLnQOkG8XyKUF+Pe+cEAFe0Y96k8IaxaBH0xZkj22PbAshwaGsw3N5HNCvBJ4NzVuW/TZB5hCRCT/4IMAC+x35KRooMPQAAAABJRU5ErkJggg=="
-
-/***/ }),
-/* 137 */
-/*!***********************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/download.png ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpjNTVlMGJjYS00MWIzLWFmNGUtYjM5ZS0zODFiZjI2NzdkMDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTJFNTQwRjMxQkFFMTFFQ0FEQkZDMjk2RUUxQ0FBQjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTJFNTQwRjIxQkFFMTFFQ0FEQkZDMjk2RUUxQ0FBQjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZWU3OTgwMDMtNTFiMy03MjQ4LWFmNGQtOTc4Yzg2MjA4NzExIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NWVkZTNlODEtNmVhOC1iNTQ3LThjNGUtMDlhMmFhMTVkNmU5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+DUTaxAAABgxJREFUeNrsXAtsFFUUnYGWWq3WULElQYxig0LUxhpiDARUMJFEwaY0gn+NUUQSWzUYNYYaP/jp+kPFT42BGlQoaaj1F8VERfEXaVCK8RPEWDU1koraVqzrOd0z+jrsbrfb3dnd6dzk9M57M/PmvTPvc+99s7XD4bAViGWNCSgIiAiIiCZ5zoFt254/fOHC6iKo+cCZQCVwLDBep/uATqADeBd4taVlY3s66sF50nYmSy+JAAFToW4ELgIOGsatO4AQ0ARS/s5ZItQD7gSuA8Yap3qAD4GdQBfQDxwCHAdUAFNcRX0JXAsytuQcESDhZKhmo1F8cBvwFPAaGrU/zr0kZAmwFCgzTt0H3IJ7+3OCCDSEc8BmvWXKVvYKNGD7MMsphKoFbgMKlc1yF6OsP7OaCFR+Nic6VZwPux24GxX/ZwRlHg+1CThBWSz/vGTnjbQToS79MXA4wIZfgso+n6Kyi6FeAU5X1mqUvTzriEBF8zQEZijrclT0uRQ/o1hL64nKYq9oTYaIdBpUVxskPJZqEigosxvqfOA3p1eAnIOzxrJEZTgp1iu5G7gpXWyDjG+4cig5GViWTSb2ZUCJjrm89aTZRFkDfKXjWg3LrCGC8h2wId2GmuyIBiUnAvMyTgTexiSoU5VMqSk8hLwA/KXjBUk7XUk2mn7CMQBNZy47e4E5xiUve+W/cOJEfbiCnOWqQ+qJwIMKoM7WTD1LvkAsYU/4xGOHdpuIKGddQU5fSomQs1QrZ+nIBMv+1sNhYTpjzpBnT92VMiJAQhXU40Cpkf2HDBm+ga81JCzFEqbI9P0lA/GVvcZxUUqGBgjIh3pYHp8j7ZqdN3qwJCYjpgdbNmIiQMI4NhY4V1m04K4H1o7EWfJADjOOW9EOBnLo2zSi3nF76AG+Bm62dfNiXUNXeQEK2mNluaDutyrw45Zu5T8Ubd6K5WssN0ig5zgnF0iQrAKOAubKxO9QPp2z+4EtIGvCkD0CF03WTMvYwQ9AJUj42cphQZvma65zlvovgDPQrq54PaLeiPxckeskyNBizIJhwheVNZ1BHbc/MsZgjl1miZJtKOANyyeiMN6FwEvKmumeS8weUQ2M0/EDls9Ejhmdwc+VtUJhxAOIcDw2jp13PKthXXgisAIo94AM2j6LgF5lNUQjokL6PY9thVXCGo96BheDR5WsRK+Y6SZikvQuj3ttsXSJh89skFNIqXETkS/da/lctBq+r+SsWIGZQ63RIZ9JT3UT8av0hFFChGNQFbqJ2C1dPkqIyI9lR3wqfYr2GP0uZeZIMIl4U5pxyHNGARGnSe90E8Et+t91vNTPDKDHT5f/QXlrEBFYUhh+a1RyLi6e52Mu7nAcT2BdtOXzXmCfjhtBxhE+7A2XQlUpuV5bhoOJQOaPdEaUZICjDTeO9xEJdCyfNibJG6KtGg4ZT0CtVZK72dtQwIwcJ6AIoFm9Qcsmg7zVaOtPzjWxothXavWokV1BMrilthr4AAWEc4QAbi1cYEX2ZBxfhgtCDdrwtnltzA9FFMS9WROLSRjt9K1yzroSqE+3xmJvDDe8xYrsVbZbIbtiiIZVasjSzilwnXbyGMmeZkU+Hpnmuoa20sWoS4eZSQ7y4jgmZOgePHyTojlVGkqlxmSTqJTK1R7J2z3JSn4LsUMLwbpYIYYhd7pwI7fRFqEifBOcbGaL7aOtwd9KxpJ+6/9o8kiEXZoht0S+iNmjZ34ENCfyxW7S31CBmLEJeqp9cXfFhjc0ShQ36XadCht5/XjevuG0ZYAD/snobzZIRB0qUBfenqkqpPtjspySgIiAiICIgIiAiAQkz9On1YW5h3GXxV/ihOwn41xHH4db+ytxXaf/iIhsty1TYwvQyEeikEDrdb16a+cAGT4k4nUr8pEZAz4PotGdLhK42dIkEmiNNvtzjgjZ31uRX/X16NlNhntMt3+zPMj+Ab8mZO/wqmoZ+ZUf3jzJaBUZ+41gSf5/8ZCQ/az/TeyQza9YrlIq36VXeklC5pfPSGPdE+EzyK8ffXZEpNHOJ0qMGVyTqarYwb9NCCzLgIho8q8AAwBduR5C8VYFiwAAAABJRU5ErkJggg=="
-
-/***/ }),
-/* 138 */
-/*!**********************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/present.png ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmYmQzNDlhMi0yNGMxLWE3NGUtOWIyMS03OGVmYzRmZTkyYjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODBGNzk1REYxQkFFMTFFQ0E3OUVBQ0ZCQTlENDNDMjYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODBGNzk1REUxQkFFMTFFQ0E3OUVBQ0ZCQTlENDNDMjYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDcwNGIzNWMtNmJhYy1mNTRjLWJiNTAtOTM2Yzk1MTQyY2FkIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZWNmNjViNzgtMTlmZi0zZjRjLWJhOTEtN2E3ZTAzNzg3OTMzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+YffCjQAAAyxJREFUeNrsm01oE0EUx3djgiLRi1ojCKI9eAiI+HWRoKJIj4m2h+pBVPCSi1TE+hGqWMFQiBelN8GDH9BKcixiIbZ6sioIERX1JCq2hyoi1bRZ/5N9C+tms4nB3ezHe/DP2w3ZzLzfzryZzGxkRVEkNkkKMQIGwSAYBINobGH9iSzLthSSTHavhZuCZqCuQmH0Y5PXjEEroO3NXNOKaaOmUy1iPbQaikNFCrIRhCJ9PkbXe79r4G5OwmXptNMKhg5CJ72Vpev9kSMQTH8jGHUg9PsuWVrBaCeEan7UT7HtSpYmzf8q3Bk6fQ/1QnfbAUGL3xQEKroGbi+00sY6HIASdLwALaLjx9B9G8sVI9c4QH+2BAEI4k5dhiI+njaUoQxgZE1BpFI9h+BuB2gedTifH7lTM6GCnSX/FeqBXjo4sZt3qKxN0AjUQfGagoiTH0azmfBpK5hA9x+GH9DFWzN8asPGrM+7xKwhXv7RxSAYBINwOYg+ZR80VvVuWZhpk52G9lMGfxjkrrHY4DlHMAgGwSAYhFdALJCP+TzumCHemnnEM2gHlMZP1VdOrEdMzr2OzoeWSOHKXDSR7N7s0HpEWhevKYiMpO4uRaFbTtyaxKeMdrgVeuFgq1Ao3tquUSiMPpDUFeUZn3cNEV8vxasuTNRZxRazvG3QMZKwlB01er4qPVgOLY1HKj9LW6ZvXLAp8Dz5e9B1aAoQflWbhdVyvmYAchLuGrUWezY9+pQiXndBj6ScvNuOIhCHFuQlxHHxr/7h8CYwzyMYBINgEG62CvnfQQcxBD2V1B0uUwsHgUIzjxhwjmAQDIJBuB3EN4Nvi7lh1DgFlaCbwQaRk9/h9ZydRdCDIXuggxhKS0HOESegjYJJ0JOlFmeERw0ePv8PiLIu4SzzYoCGek+3CuKN7rjLozdbX++3rYIQ/5P4og10oLvOY61B1DdHpyKOus+ONnw6H192VDfZ+S6pGz8fPMBhA3QEWk7nxzGHqJm0NbWcr4MxCHfew7nwCiCY7pn8EwiCIf62IJ532impW4Jutx/QE2gIEMbrfcgUBA+fbAyCQTAIBmFpfwQYAIqEBs0QZetkAAAAAElFTkSuQmCC"
-
-/***/ }),
-/* 139 */,
-/* 140 */,
-/* 141 */,
-/* 142 */,
-/* 143 */,
-/* 144 */,
-/* 145 */,
-/* 146 */
-/*!***************************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/line-service.png ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxM2ZlOGUxNS00ODdlLTAxNDgtOTEzZi1iYTQ4NGNlMTA5ZDEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0E1QzdGOTExQkFFMTFFQ0I1MzBEQUEyQTg3NEExODUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0E1QzdGOTAxQkFFMTFFQ0I1MzBEQUEyQTg3NEExODUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTgzZmY5NTUtYjcxYS1mZTRhLWE4NTMtNDdkYTgyZGM3MTIxIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NzE2ZGFkMTktNTVmOC0zMDQ4LTk2YTQt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"
-
-/***/ }),
-/* 147 */
-/*!*********************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/driver.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxOWNiZGU5Mi01YzA2LTZhNGYtYjc1Yy1jYWEzMWRkZGNlMjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEYzRERDNzAxQkFFMTFFQ0EwMUFERDE2N0I2QjI3MDciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEYzRERDNkYxQkFFMTFFQ0EwMUFERDE2N0I2QjI3MDciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6YWRlYmQ1ZmYtMDc3Yy02YzQ2LTgzODItMWE2MDExYTYzYjI5IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6Y2JlYmNmZTgtMzc3Ny1jMDQ2LWFkY2It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"
-
-/***/ }),
-/* 148 */
-/*!*********************************************************!*\
-  !*** D:/uniapp/Motorcycle/pages/static/mine/advise.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkZTRkMmUwNC1lNDNhLTJkNGYtODdjNC00YThmYzBmZDIzNTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0RDRDYzOTQxQkFFMTFFQ0I4MzFEMjVDMTBFMTY5MzQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0RDRDYzOTMxQkFFMTFFQ0I4MzFEMjVDMTBFMTY5MzQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZDIwZGJjNTYtNDNkNC1lOTQ5LWJjYjMtYWM5MzdkZWUxN2EzIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZGU1ZmUyMDAtYmUwNC0xYTQ1LThlNmYtMDI2ZmQyMmRkZTAwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ioTXAQAAAvlJREFUeNrsmktoFEEQhntC8HkQHwQVJAS8ia+TL6InEaLCLm5QkKCiOagHTUARLxFEPAgRxBdiInrw4mL24EUFERFPgYBIThGUJL7iQVBMfK5f7fTEIYTNbtiQmekq+LdmJrtM+uvqnuqe8vL5vFEzpkoRKAgFoSAUhIJQEOVatXx4nlc4SaUy23An0EY0O6Zt+o160Q10PZfL/pnoB5JLeYUPQAChjWtnEtbRj9EOYPycCES1jYSGEIQhS/O1fCeGjV+EmtAqtBWds1Fe1AoRkU43PuV4C/qM1kJwIM5hQMfOsNGwGQ0LHNr0vVhEBJPleus74g5BzA6F8/ZU5rrVpT41Zlr/IUHzQ7gtNfr4tFOAgtCESkEoCAWhIBSEgpjSZXjZ1poXgM/Rhmn4ny+Zdu9YVCJCFjVrpqnz1kUnItq9EaJiUymLmQqbbAs8iQ4IH0YPnz06WepTQ0EoCAWhCZUblkpl6nFvUH+VwxDSuGeo2/WhUWt9jc4ROlkqCAWhIHz75TKIlaHjQSdBkCMsN345gNh79HJKMktutBi31/g1CPMixkHefkuJQ/Bi+1Qul/1bURAAkAhqQWdN9EuLpPGngXCnomsNINThbqP60GWpVRqKGIAR9Ap1AqG3oosuIDTjLqK59pKMuYPcqNuJ1ScAluBuooZQuF1AbUD44cQyHAi7cVfRAnupD+0DwAsn9iMAsBB3Ge0JXb6GTgLhW1KTjrEg5LEjpXhL7fk7dAAAj5Keeo4FkQod30VHgfDFhRx8vDlCai0PAyBbYl6xE82PcBulIx/SnuFyQDxAzfyo1DLD/agjBh3eT6cdKjbEAxBf0XG+2FnmDfpsAjMr4iCWSVQA4xa+dbzhHpQg1/LHt5Ncd8ib8TkRhrDdSCnB/zRAHgBHUJ1NEk1X1z1vtDo/yUZnyQbtFZQJDxcbKQUQTmzMEO2fUCOHu9DH0HAxwblTW3XAuI9bIQsy4+9ayXTQNDpHqOnmrYJQEApCQSgIBTEJ+yfAAN6s0BGZ2W0FAAAAAElFTkSuQmCC"
-
-/***/ }),
-/* 149 */,
-/* 150 */,
-/* 151 */,
-/* 152 */,
-/* 153 */,
-/* 154 */,
-/* 155 */,
-/* 156 */,
-/* 157 */,
-/* 158 */,
-/* 159 */,
-/* 160 */,
-/* 161 */,
-/* 162 */,
-/* 163 */,
-/* 164 */,
-/* 165 */,
-/* 166 */,
-/* 167 */,
-/* 168 */,
-/* 169 */,
-/* 170 */,
-/* 171 */,
-/* 172 */
+/***/ 334:
 /*!***********************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/util/emitter.js ***!
   \***********************************************************************/
@@ -10873,7 +10575,8 @@ function _broadcast(componentName, eventName, params) {
     } } };exports.default = _default;
 
 /***/ }),
-/* 173 */
+
+/***/ 335:
 /*!*******************************************************************************!*\
   !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/util/async-validator.js ***!
   \*******************************************************************************/
@@ -10903,7 +10606,7 @@ function _broadcast(componentName, eventName, params) {
 var formatRegExp = /%[sdj%]/g;
 var warning = function warning() {}; // don't print warning message when in production env or node runtime
 
-if (typeof process !== 'undefined' && Object({"VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}) && "development" !== 'production' && typeof window !==
+if (typeof process !== 'undefined' && Object({"NODE_ENV":"development","VUE_APP_NAME":"shop_app","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}) && "development" !== 'production' && typeof window !==
 'undefined' && typeof document !== 'undefined') {
   warning = function warning(type, errors) {
     if (typeof console !== 'undefined' && console.warn) {
@@ -11200,7 +10903,7 @@ var types = {
   integer: function integer(value) {
     return types.number(value) && parseInt(value, 10) === value;
   },
-  "float": function _float(value) {
+  "float": function float(value) {
     return types.number(value) && !types.integer(value);
   },
   array: function array(value) {
@@ -12236,10 +11939,11 @@ Schema.warning = warning;
 Schema.messages = messages;var _default =
 
 Schema;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.2.9.8.20201110/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 174)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.2.9.8.20201110/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 336)))
 
 /***/ }),
-/* 174 */
+
+/***/ 336:
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -12270,7 +11974,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 175);
+        if (!path) path = __webpack_require__(/*! path */ 337);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -12283,7 +11987,8 @@ exports.features = {};
 
 
 /***/ }),
-/* 175 */
+
+/***/ 337:
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -12593,8 +12298,1029 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 174)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 336)))
+
+/***/ }),
+
+/***/ 34:
+/*!************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/trim.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
+  if (pos == 'both') {
+    return str.replace(/^\s+|\s+$/g, "");
+  } else if (pos == "left") {
+    return str.replace(/^\s*/, '');
+  } else if (pos == 'right') {
+    return str.replace(/(\s*$)/g, "");
+  } else if (pos == 'all') {
+    return str.replace(/\s+/g, "");
+  } else {
+    return str;
+  }
+}var _default =
+
+trim;exports.default = _default;
+
+/***/ }),
+
+/***/ 35:
+/*!*************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/toast.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
+  uni.showToast({
+    title: title,
+    icon: 'none',
+    duration: duration });
+
+}var _default =
+
+toast;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 36:
+/*!*****************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/getParent.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+function getParent(name, keys) {
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {var _ret = function () {
+        var data = {};
+        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
+        if (Array.isArray(keys)) {
+          keys.map(function (val) {
+            data[val] = parent[val] ? parent[val] : '';
+          });
+        } else {
+          // 历遍传过来的对象参数
+          for (var i in keys) {
+            // 如果子组件有此值则用，无此值则用父组件的值
+            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
+            if (Array.isArray(keys[i])) {
+              if (keys[i].length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else if (keys[i].constructor === Object) {
+              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
+              if (Object.keys(keys[i]).length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else {
+              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
+              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
+            }
+          }
+        }
+        return { v: data };}();if (typeof _ret === "object") return _ret.v;
+    }
+  }
+
+  return {};
+}
+
+/***/ }),
+
+/***/ 37:
+/*!***************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/$parent.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
+// 值(默认为undefined)，就是查找最顶层的$parent
+function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options && parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      return parent;
+    }
+  }
+  return false;
+}
+
+/***/ }),
+
+/***/ 38:
+/*!***********************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/sys.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
+  return uni.getSystemInfoSync().platform;
+};
+
+function sys() {
+  return uni.getSystemInfoSync();
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 39:
+/*!****************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/debounce.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timeout = null;
+
+/**
+                                                                                                                         * 防抖原理：一定时间内，只有最后一次操作，再过wait毫秒后才执行函数
+                                                                                                                         * 
+                                                                                                                         * @param {Function} func 要执行的回调函数 
+                                                                                                                         * @param {Number} wait 延时的时间
+                                                                                                                         * @param {Boolean} immediate 是否立即执行 
+                                                                                                                         * @return null
+                                                                                                                         */
+function debounce(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+  // 清除定时器
+  if (timeout !== null) clearTimeout(timeout);
+  // 立即执行，此类情况一般用不到
+  if (immediate) {
+    var callNow = !timeout;
+    timeout = setTimeout(function () {
+      timeout = null;
+    }, wait);
+    if (callNow) typeof func === 'function' && func();
+  } else {
+    // 设置定时器，当最后一次操作后，timeout不会再被清除，所以在延时wait毫秒后执行func回调方法
+    timeout = setTimeout(function () {
+      typeof func === 'function' && func();
+    }, wait);
+  }
+}var _default =
+
+debounce;exports.default = _default;
+
+/***/ }),
+
+/***/ 4:
+/*!*************************************************************!*\
+  !*** ./node_modules/@dcloudio/uni-i18n/dist/uni-i18n.es.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.compileI18nJsonStr = compileI18nJsonStr;exports.hasI18nJson = hasI18nJson;exports.initVueI18n = initVueI18n;exports.isI18nStr = isI18nStr;exports.normalizeLocale = normalizeLocale;exports.parseI18nJson = parseI18nJson;exports.isString = exports.LOCALE_ZH_HANT = exports.LOCALE_ZH_HANS = exports.LOCALE_FR = exports.LOCALE_ES = exports.LOCALE_EN = exports.I18n = exports.Formatter = void 0;function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var isArray = Array.isArray;
+var isObject = function isObject(val) {return val !== null && typeof val === 'object';};
+var defaultDelimiters = ['{', '}'];var
+BaseFormatter = /*#__PURE__*/function () {
+  function BaseFormatter() {_classCallCheck(this, BaseFormatter);
+    this._caches = Object.create(null);
+  }_createClass(BaseFormatter, [{ key: "interpolate", value: function interpolate(
+    message, values) {var delimiters = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : defaultDelimiters;
+      if (!values) {
+        return [message];
+      }
+      var tokens = this._caches[message];
+      if (!tokens) {
+        tokens = parse(message, delimiters);
+        this._caches[message] = tokens;
+      }
+      return compile(tokens, values);
+    } }]);return BaseFormatter;}();exports.Formatter = BaseFormatter;
+
+var RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
+var RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
+function parse(format, _ref) {var _ref2 = _slicedToArray(_ref, 2),startDelimiter = _ref2[0],endDelimiter = _ref2[1];
+  var tokens = [];
+  var position = 0;
+  var text = '';
+  while (position < format.length) {
+    var char = format[position++];
+    if (char === startDelimiter) {
+      if (text) {
+        tokens.push({ type: 'text', value: text });
+      }
+      text = '';
+      var sub = '';
+      char = format[position++];
+      while (char !== undefined && char !== endDelimiter) {
+        sub += char;
+        char = format[position++];
+      }
+      var isClosed = char === endDelimiter;
+      var type = RE_TOKEN_LIST_VALUE.test(sub) ?
+      'list' :
+      isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ?
+      'named' :
+      'unknown';
+      tokens.push({ value: sub, type: type });
+    }
+    //  else if (char === '%') {
+    //   // when found rails i18n syntax, skip text capture
+    //   if (format[position] !== '{') {
+    //     text += char
+    //   }
+    // }
+    else {
+        text += char;
+      }
+  }
+  text && tokens.push({ type: 'text', value: text });
+  return tokens;
+}
+function compile(tokens, values) {
+  var compiled = [];
+  var index = 0;
+  var mode = isArray(values) ?
+  'list' :
+  isObject(values) ?
+  'named' :
+  'unknown';
+  if (mode === 'unknown') {
+    return compiled;
+  }
+  while (index < tokens.length) {
+    var token = tokens[index];
+    switch (token.type) {
+      case 'text':
+        compiled.push(token.value);
+        break;
+      case 'list':
+        compiled.push(values[parseInt(token.value, 10)]);
+        break;
+      case 'named':
+        if (mode === 'named') {
+          compiled.push(values[token.value]);
+        } else
+        {
+          if (true) {
+            console.warn("Type of token '".concat(token.type, "' and format of value '").concat(mode, "' don't match!"));
+          }
+        }
+        break;
+      case 'unknown':
+        if (true) {
+          console.warn("Detect 'unknown' type of token!");
+        }
+        break;}
+
+    index++;
+  }
+  return compiled;
+}
+
+var LOCALE_ZH_HANS = 'zh-Hans';exports.LOCALE_ZH_HANS = LOCALE_ZH_HANS;
+var LOCALE_ZH_HANT = 'zh-Hant';exports.LOCALE_ZH_HANT = LOCALE_ZH_HANT;
+var LOCALE_EN = 'en';exports.LOCALE_EN = LOCALE_EN;
+var LOCALE_FR = 'fr';exports.LOCALE_FR = LOCALE_FR;
+var LOCALE_ES = 'es';exports.LOCALE_ES = LOCALE_ES;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var hasOwn = function hasOwn(val, key) {return hasOwnProperty.call(val, key);};
+var defaultFormatter = new BaseFormatter();
+function include(str, parts) {
+  return !!parts.find(function (part) {return str.indexOf(part) !== -1;});
+}
+function startsWith(str, parts) {
+  return parts.find(function (part) {return str.indexOf(part) === 0;});
+}
+function normalizeLocale(locale, messages) {
+  if (!locale) {
+    return;
+  }
+  locale = locale.trim().replace(/_/g, '-');
+  if (messages && messages[locale]) {
+    return locale;
+  }
+  locale = locale.toLowerCase();
+  if (locale.indexOf('zh') === 0) {
+    if (locale.indexOf('-hans') !== -1) {
+      return LOCALE_ZH_HANS;
+    }
+    if (locale.indexOf('-hant') !== -1) {
+      return LOCALE_ZH_HANT;
+    }
+    if (include(locale, ['-tw', '-hk', '-mo', '-cht'])) {
+      return LOCALE_ZH_HANT;
+    }
+    return LOCALE_ZH_HANS;
+  }
+  var lang = startsWith(locale, [LOCALE_EN, LOCALE_FR, LOCALE_ES]);
+  if (lang) {
+    return lang;
+  }
+}var
+I18n = /*#__PURE__*/function () {
+  function I18n(_ref3) {var locale = _ref3.locale,fallbackLocale = _ref3.fallbackLocale,messages = _ref3.messages,watcher = _ref3.watcher,formater = _ref3.formater;_classCallCheck(this, I18n);
+    this.locale = LOCALE_EN;
+    this.fallbackLocale = LOCALE_EN;
+    this.message = {};
+    this.messages = {};
+    this.watchers = [];
+    if (fallbackLocale) {
+      this.fallbackLocale = fallbackLocale;
+    }
+    this.formater = formater || defaultFormatter;
+    this.messages = messages || {};
+    this.setLocale(locale || LOCALE_EN);
+    if (watcher) {
+      this.watchLocale(watcher);
+    }
+  }_createClass(I18n, [{ key: "setLocale", value: function setLocale(
+    locale) {var _this = this;
+      var oldLocale = this.locale;
+      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
+      if (!this.messages[this.locale]) {
+        // 可能初始化时不存在
+        this.messages[this.locale] = {};
+      }
+      this.message = this.messages[this.locale];
+      // 仅发生变化时，通知
+      if (oldLocale !== this.locale) {
+        this.watchers.forEach(function (watcher) {
+          watcher(_this.locale, oldLocale);
+        });
+      }
+    } }, { key: "getLocale", value: function getLocale()
+    {
+      return this.locale;
+    } }, { key: "watchLocale", value: function watchLocale(
+    fn) {var _this2 = this;
+      var index = this.watchers.push(fn) - 1;
+      return function () {
+        _this2.watchers.splice(index, 1);
+      };
+    } }, { key: "add", value: function add(
+    locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      var curMessages = this.messages[locale];
+      if (curMessages) {
+        if (override) {
+          Object.assign(curMessages, message);
+        } else
+        {
+          Object.keys(message).forEach(function (key) {
+            if (!hasOwn(curMessages, key)) {
+              curMessages[key] = message[key];
+            }
+          });
+        }
+      } else
+      {
+        this.messages[locale] = message;
+      }
+    } }, { key: "f", value: function f(
+    message, values, delimiters) {
+      return this.formater.interpolate(message, values, delimiters).join('');
+    } }, { key: "t", value: function t(
+    key, locale, values) {
+      var message = this.message;
+      if (typeof locale === 'string') {
+        locale = normalizeLocale(locale, this.messages);
+        locale && (message = this.messages[locale]);
+      } else
+      {
+        values = locale;
+      }
+      if (!hasOwn(message, key)) {
+        console.warn("Cannot translate the value of keypath ".concat(key, ". Use the value of keypath as default."));
+        return key;
+      }
+      return this.formater.interpolate(message[key], values).join('');
+    } }]);return I18n;}();exports.I18n = I18n;
+
+
+var ignoreVueI18n = true;
+function watchAppLocale(appVm, i18n) {
+  appVm.$watch(function () {return appVm.$locale;}, function (newLocale) {
+    i18n.setLocale(newLocale);
+  });
+}
+function initVueI18n(locale) {var messages = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var fallbackLocale = arguments.length > 2 ? arguments[2] : undefined;var watcher = arguments.length > 3 ? arguments[3] : undefined;
+  // 兼容旧版本入参
+  if (typeof locale !== 'string') {var _ref4 =
+    [
+    messages,
+    locale];locale = _ref4[0];messages = _ref4[1];
+
+  }
+  if (typeof locale !== 'string') {
+    locale =
+    typeof uni !== 'undefined' && uni.getLocale && uni.getLocale() ||
+    LOCALE_EN;
+  }
+  if (typeof fallbackLocale !== 'string') {
+    fallbackLocale =
+    typeof __uniConfig !== 'undefined' && __uniConfig.fallbackLocale ||
+    LOCALE_EN;
+  }
+  var i18n = new I18n({
+    locale: locale,
+    fallbackLocale: fallbackLocale,
+    messages: messages,
+    watcher: watcher });
+
+  var _t = function t(key, values) {
+    if (typeof getApp !== 'function') {
+      // app view
+      /* eslint-disable no-func-assign */
+      _t = function t(key, values) {
+        return i18n.t(key, values);
+      };
+    } else
+    {
+      var appVm = getApp().$vm;
+      watchAppLocale(appVm, i18n);
+      if (!appVm.$t || !appVm.$i18n || ignoreVueI18n) {
+        // if (!locale) {
+        //   i18n.setLocale(getDefaultLocale())
+        // }
+        /* eslint-disable no-func-assign */
+        _t = function t(key, values) {
+          // 触发响应式
+          appVm.$locale;
+          return i18n.t(key, values);
+        };
+      } else
+      {
+        /* eslint-disable no-func-assign */
+        _t = function t(key, values) {
+          var $i18n = appVm.$i18n;
+          var silentTranslationWarn = $i18n.silentTranslationWarn;
+          $i18n.silentTranslationWarn = true;
+          var msg = appVm.$t(key, values);
+          $i18n.silentTranslationWarn = silentTranslationWarn;
+          if (msg !== key) {
+            return msg;
+          }
+          return i18n.t(key, $i18n.locale, values);
+        };
+      }
+    }
+    return _t(key, values);
+  };
+  return {
+    i18n: i18n,
+    f: function f(message, values, delimiters) {
+      return i18n.f(message, values, delimiters);
+    },
+    t: function t(key, values) {
+      return _t(key, values);
+    },
+    add: function add(locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      return i18n.add(locale, message, override);
+    },
+    watch: function watch(fn) {
+      return i18n.watchLocale(fn);
+    },
+    getLocale: function getLocale() {
+      return i18n.getLocale();
+    },
+    setLocale: function setLocale(newLocale) {
+      return i18n.setLocale(newLocale);
+    } };
+
+}
+
+var isString = function isString(val) {return typeof val === 'string';};exports.isString = isString;
+var formater;
+function hasI18nJson(jsonObj, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  return walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        return true;
+      }
+    } else
+    {
+      return hasI18nJson(value, delimiters);
+    }
+  });
+}
+function parseI18nJson(jsonObj, values, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        jsonObj[key] = compileStr(value, values, delimiters);
+      }
+    } else
+    {
+      parseI18nJson(value, values, delimiters);
+    }
+  });
+  return jsonObj;
+}
+function compileI18nJsonStr(jsonStr, _ref5) {var locale = _ref5.locale,locales = _ref5.locales,delimiters = _ref5.delimiters;
+  if (!isI18nStr(jsonStr, delimiters)) {
+    return jsonStr;
+  }
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  var localeValues = [];
+  Object.keys(locales).forEach(function (name) {
+    if (name !== locale) {
+      localeValues.push({
+        locale: name,
+        values: locales[name] });
+
+    }
+  });
+  localeValues.unshift({ locale: locale, values: locales[locale] });
+  try {
+    return JSON.stringify(compileJsonObj(JSON.parse(jsonStr), localeValues, delimiters), null, 2);
+  }
+  catch (e) {}
+  return jsonStr;
+}
+function isI18nStr(value, delimiters) {
+  return value.indexOf(delimiters[0]) > -1;
+}
+function compileStr(value, values, delimiters) {
+  return formater.interpolate(value, values, delimiters).join('');
+}
+function compileValue(jsonObj, key, localeValues, delimiters) {
+  var value = jsonObj[key];
+  if (isString(value)) {
+    // 存在国际化
+    if (isI18nStr(value, delimiters)) {
+      jsonObj[key] = compileStr(value, localeValues[0].values, delimiters);
+      if (localeValues.length > 1) {
+        // 格式化国际化语言
+        var valueLocales = jsonObj[key + 'Locales'] = {};
+        localeValues.forEach(function (localValue) {
+          valueLocales[localValue.locale] = compileStr(value, localValue.values, delimiters);
+        });
+      }
+    }
+  } else
+  {
+    compileJsonObj(value, localeValues, delimiters);
+  }
+}
+function compileJsonObj(jsonObj, localeValues, delimiters) {
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    compileValue(jsonObj, key, localeValues, delimiters);
+  });
+  return jsonObj;
+}
+function walkJsonObj(jsonObj, walk) {
+  if (isArray(jsonObj)) {
+    for (var i = 0; i < jsonObj.length; i++) {
+      if (walk(jsonObj, i)) {
+        return true;
+      }
+    }
+  } else
+  if (isObject(jsonObj)) {
+    for (var key in jsonObj) {
+      if (walk(jsonObj, key)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 40:
+/*!****************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/function/throttle.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timer, flag;
+/**
+                                                                                                                      * 节流原理：在一定时间内，只能触发一次
+                                                                                                                      * 
+                                                                                                                      * @param {Function} func 要执行的回调函数 
+                                                                                                                      * @param {Number} wait 延时的时间
+                                                                                                                      * @param {Boolean} immediate 是否立即执行
+                                                                                                                      * @return null
+                                                                                                                      */
+function throttle(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  if (immediate) {
+    if (!flag) {
+      flag = true;
+      // 如果是立即执行，则在wait毫秒内开始时执行
+      typeof func === 'function' && func();
+      timer = setTimeout(function () {
+        flag = false;
+      }, wait);
+    }
+  } else {
+    if (!flag) {
+      flag = true;
+      // 如果是非立即执行，则在wait毫秒内的结束处执行
+      timer = setTimeout(function () {
+        flag = false;
+        typeof func === 'function' && func();
+      }, wait);
+    }
+
+  }
+};var _default =
+throttle;exports.default = _default;
+
+/***/ }),
+
+/***/ 41:
+/*!************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/config/config.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-12-17
+var version = '1.8.3';var _default =
+
+{
+  v: version,
+  version: version,
+  // 主题名称
+  type: [
+  'primary',
+  'success',
+  'info',
+  'error',
+  'warning'] };exports.default = _default;
+
+/***/ }),
+
+/***/ 42:
+/*!************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/node_modules/uview-ui/libs/config/zIndex.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
+/**
+ * actionsheet: 999
+ * modal: 999
+ * navigate: 998
+ * tabbar: 998
+ * toast: 999
+ */var _default =
+
+{
+  toast: 10090,
+  noNetwork: 10080,
+  // popup包含popup，actionsheet，keyboard，picker的值
+  popup: 10075,
+  mask: 10070,
+  navbar: 980,
+  topTips: 975,
+  sticky: 970,
+  indexListSticky: 965 };exports.default = _default;
+
+/***/ }),
+
+/***/ 457:
+/*!**********************************************************************!*\
+  !*** D:/uniapp/Motorcycle/uni_modules/uni-share/js_sdk/uni-share.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 22));var _uniImageMenu = _interopRequireDefault(__webpack_require__(/*! ./uni-image-menu.js */ 458));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var _default = /*#__PURE__*/function () {var _ref = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(
+  function _callee(param, callback) {var menus,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    copyurl,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    shareSystem;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:shareSystem = function _shareSystem() {
+              plus.share.sendWithSystem({
+                type: 'text',
+                content: param.content.title + param.content.summary || '',
+                href: param.content.href },
+              function (e) {
+                console.log('分享成功');
+                callback(e);
+              }, function (e) {
+                console.log('分享失败：' + JSON.stringify(e));
+                callback(e);
+              });
+            };copyurl = function _copyurl() {uni.setClipboardData({ data: param.content.href, success: function success() {console.log('success');uni.hideToast(); //关闭自带的toast
+                  uni.showToast({ title: '复制成功', icon: 'none' });}, fail: function fail(err) {uni.showModal({ content: JSON.stringify(err), showCancel: false });} });};menus = [];plus.share.getServices(function (services) {//只显示有服务的项目
+              services = services.filter(function (item) {return item.nativeClient;}); // console.log("servicesList",services);
+              var servicesList = services.map(function (e) {return e.id;});param.menus.forEach(function (item) {if (servicesList.includes(item.share.provider) || typeof item.share == 'string') {menus.push(item);}}); // console.log(menus);
+              _uniImageMenu.default.show({ list: menus, cancelText: param.cancelText }, function (e) {if (typeof menus[e]['share'] == 'string') {switch (menus[e]['share']) {case "copyurl":copyurl();break;case "shareSystem":shareSystem();break;default:console.error('未知事件名称:' + menus[e]['share']);break;}} else {console.log(123456, _objectSpread(_objectSpread({}, param.content), menus[e].share));uni.share(_objectSpread(_objectSpread(_objectSpread({}, param.content), menus[e].share), {}, { success: function success(res) {console.log("success:" + JSON.stringify(res));}, fail: function fail(err) {console.log("fail:" + JSON.stringify(err));uni.showModal({ content: JSON.stringify(err), showCancel: false, confirmText: "知道了" });}, complete: function complete(e) {_uniImageMenu.default.hide();callback(e);} }));}});}, function (err) {uni.showModal({ title: '获取服务供应商失败：' + JSON.stringify(err), showCancel: false, confirmText: '知道了' });console.error('获取服务供应商失败：' + JSON.stringify(err));});case 4:case "end":return _context.stop();}}}, _callee);}));return function (_x, _x2) {return _ref.apply(this, arguments);};}();exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 458:
+/*!***************************************************************************!*\
+  !*** D:/uniapp/Motorcycle/uni_modules/uni-share/js_sdk/uni-image-menu.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var nvMask, nvImageMenu;var _default =
+{
+  show: function show(_ref, callback) {var _this = this;var list = _ref.list,cancelText = _ref.cancelText;
+    console.log(789789879);
+    if (!list) {
+      list = [{
+        "img": "/static/sharemenu/wechatfriend.png",
+        "text": "图标文字" }];
+
+    }
+    //以下为计算菜单的nview绘制布局，为固定算法，使用者无关关心
+    var screenWidth = plus.screen.resolutionWidth;
+    //以360px宽度屏幕为例，上下左右边距及2排按钮边距留25像素，图标宽度55像素，同行图标间的间距在360宽的屏幕是30px，但需要动态计算，以此原则计算4列图标分别的left位置
+    //图标下的按钮文字距离图标5像素，文字大小12像素
+    //底部取消按钮高度固定为44px
+    //TODO 未处理横屏和pad，这些情况6个图标应该一排即可
+    var margin = 20,
+    iconWidth = 60,
+    icontextSpace = 5,
+    textHeight = 12;
+    var left1 = margin / 360 * screenWidth;
+    var iconSpace = (screenWidth - left1 * 2 - iconWidth * 4) / 3; //屏幕宽度减去左右留白间距，再减去4个图标的宽度，就是3个同行图标的间距
+    if (iconSpace <= 5) {//屏幕过窄时，缩小边距和图标大小，再算一次
+      margin = 15;
+      iconWidth = 40;
+      left1 = margin / 360 * screenWidth;
+      iconSpace = (screenWidth - left1 * 2 - iconWidth * 4) / 3; //屏幕宽度减去左右留白间距，再减去4个图标的宽度，就是3个同行图标的间距
+    }
+    var left2 = left1 + iconWidth + iconSpace;
+    var left3 = left1 + (iconWidth + iconSpace) * 2;
+    var left4 = left1 + (iconWidth + iconSpace) * 3;
+    var top1 = left1;
+    var top2 = top1 + iconWidth + icontextSpace + textHeight + left1;
+
+    var TOP = { top1: top1, top2: top2 },LEFT = { left1: left1, left2: left2, left3: left3, left4: left4 };
+
+    nvMask = new plus.nativeObj.View("nvMask", { //先创建遮罩层
+      top: '0px',
+      left: '0px',
+      height: '100%',
+      width: '100%',
+      backgroundColor: 'rgba(0,0,0,0.2)' });
+
+    nvMask.addEventListener("click", function () {//处理遮罩层点击
+      nvMask.hide();
+      nvImageMenu.hide();
+    });
+    nvImageMenu = new plus.nativeObj.View("nvImageMenu", { //创建底部图标菜单
+      bottom: '0px',
+      left: '0px',
+      height: (iconWidth + textHeight + 2 * margin) * Math.ceil(list.length / 4) + 44 + 'px', //'264px',
+      width: '100%',
+      backgroundColor: 'rgb(255,255,255)' });
+
+
+    var myList = [];
+    list.forEach(function (item, i) {
+      myList.push({
+        tag: 'img',
+        src: item.img,
+        position: {
+          top: TOP['top' + (parseInt(i / 4) + 1)],
+          left: LEFT['left' + (1 + i % 4)],
+          width: iconWidth,
+          height: iconWidth } });
+
+
+      myList.push({
+        tag: 'font',
+        text: item.text,
+        textStyles: {
+          size: textHeight },
+
+        position: {
+          top: TOP['top' + (parseInt(i / 4) + 1)] + iconWidth + icontextSpace,
+          left: LEFT['left' + (1 + i % 4)],
+          width: iconWidth,
+          height: textHeight } });
+
+
+    });
+
+    //绘制底部图标菜单的内容
+    nvImageMenu.draw([
+    {
+      tag: 'rect', //菜单顶部的分割灰线
+      color: '#e7e7e7',
+      position: {
+        top: '0px',
+        height: '1px' } },
+
+
+    {
+      tag: 'font',
+      text: cancelText, //底部取消按钮的文字
+      textStyles: {
+        size: '14px' },
+
+      position: {
+        bottom: '0px',
+        height: '44px' } },
+
+
+    {
+      tag: 'rect', //底部取消按钮的顶部边线
+      color: '#e7e7e7',
+      position: {
+        bottom: '45px',
+        height: '1px' } }].concat(
+
+
+    myList));
+
+    nvMask.show();
+    nvImageMenu.show(); //5+应支持从底部向上弹出的动画
+
+
+
+    nvImageMenu.addEventListener("click", function (e) {//处理底部图标菜单的点击事件，根据点击位置触发不同的逻辑
+      // console.log("click menu"+JSON.stringify(e));
+      if (e.screenY > plus.screen.resolutionHeight - 44) {//点击了底部取消按钮
+        nvMask.hide();
+        nvImageMenu.hide();
+      } else if (e.clientX < 5 || e.clientX > screenWidth - 5 || e.clientY < 5) {
+        //屏幕左右边缘5像素及菜单顶部5像素不处理点击
+      } else {//点击了图标按钮
+        var iClickIndex = -1; //点击的图标按钮序号，第一个图标按钮的index为0
+        var iRow = e.clientY < top2 - left1 / 2 ? 0 : 1;
+        var iCol = -1;
+        if (e.clientX < left2 - iconSpace / 2) {
+          iCol = 0;
+        } else if (e.clientX < left3 - iconSpace / 2) {
+          iCol = 1;
+        } else if (e.clientX < left4 - iconSpace / 2) {
+          iCol = 2;
+        } else {
+          iCol = 3;
+        }
+        if (iRow == 0) {
+          iClickIndex = iCol;
+        } else {
+          iClickIndex = iCol + 4;
+        }
+        // console.log("点击按钮的序号: " + iClickIndex);
+        // if (iClickIndex >= 0 && iClickIndex <= 5) { //处理具体的点击逻辑，此处也可以自行定义逻辑。如果增减了按钮，此处也需要跟着修改
+        // }
+        callback(iClickIndex);
+        _this.hide();
+      }
+    });
+    /* nvImageMenu.addEventListener("touchstart", function(e) {
+        	if (e.screenY > (plus.screen.resolutionHeight - 44)) {
+        		//TODO 这里可以处理按下背景变灰的效果
+        	}
+        })
+        nvImageMenu.addEventListener("touchmove", function(e) {
+        	//TODO 这里可以处理按下背景变灰的效果
+        	if (e.screenY > plus.screen.resolutionHeight - 44) {}
+        })
+        nvImageMenu.addEventListener("touchend", function(e) {
+        	//TODO 这里可以处理释放背景恢复的效果
+        })
+        */
+  },
+  hide: function hide() {
+    nvMask.hide();
+    nvImageMenu.hide();
+  } };exports.default = _default;
+
+/***/ }),
+
+/***/ 5:
+/*!***************************************!*\
+  !*** D:/uniapp/Motorcycle/pages.json ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ })
-]]);
+
+}]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

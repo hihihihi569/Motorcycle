@@ -1,7 +1,9 @@
 {
-  "navigationBarTitleText": "发现",
-  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
   "enablePullDownRefresh": true,
   "onReachBottomDistance": 100,
-  "usingComponents": {}
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
 }

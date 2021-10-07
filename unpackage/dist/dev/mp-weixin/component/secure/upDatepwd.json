@@ -1,4 +1,6 @@
 {
   "navigationStyle": "custom",
-  "usingComponents": {}
+  "usingComponents": {
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
 }

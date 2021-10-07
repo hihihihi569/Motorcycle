@@ -62,11 +62,7 @@ page.data-v-2dc9015c {
 }
 .content .perfer_body_contact .perfer_body_items.data-v-2dc9015c {
   padding: 0 30rpx;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -webkit-flex;
+  justify-content: space-between;
   display: flex;
   color: #3C3C5A;
   font-size: 27rpx;
@@ -85,11 +81,7 @@ page.data-v-2dc9015c {
 }
 .content .perfer_body_items.data-v-2dc9015c {
   padding: 0 30rpx;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -webkit-flex;
+  justify-content: space-between;
   display: flex;
   color: #3C3C5A;
   font-size: 27rpx;

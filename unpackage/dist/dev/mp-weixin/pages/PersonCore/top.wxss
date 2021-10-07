@@ -34,12 +34,8 @@
 .content .top_modal.data-v-54c44133 {
   color: #fff;
   font-size: 30rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 40rpx;
 }
 .content .top_modal .switch_mode.data-v-54c44133 {
@@ -54,8 +50,6 @@
 .content .top_avatar.data-v-54c44133 {
   padding: 0 40rpx;
   height: 100rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .content .top_avatar .avatar.data-v-54c44133 {
@@ -67,13 +61,8 @@
 .content .top_avatar .avatar_edit.data-v-54c44133 {
   height: 100rpx;
   padding: 0 40rpx;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   color: #fff;
 }
 .content .top_avatar .avatar_edit .edit_info.data-v-54c44133 {
@@ -90,12 +79,8 @@
   padding: 0 10px;
   font-size: 32rpx;
   color: #3B3B59;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .content .IDcard .Idcard_replenish.data-v-54c44133 {
   color: #89878D;

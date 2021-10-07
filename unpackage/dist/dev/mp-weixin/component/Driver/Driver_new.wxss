@@ -47,12 +47,8 @@ page.data-v-9655c4c0 {
 }
 .content .driverTime.data-v-9655c4c0 {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .content .driverTime ._span.data-v-9655c4c0 {
   padding: 0 20rpx;

@@ -16,7 +16,19 @@
     "component/secure/upDatepwd",
     "component/secure/deleteUser",
     "component/Contact/contactList",
-    "component/Contact/addContact"
+    "component/Contact/addContact",
+    "component/Faces/nickname",
+    "component/secure/update_mobile",
+    "component/Faces/setBirth",
+    "component/Privacy/Privacy",
+    "component/Privacy/perfer",
+    "component/Privacy/policy",
+    "component/Concerning/concerning",
+    "component/Concerning/clause_serive",
+    "component/Concerning/contact_us",
+    "component/Concerning/Reporting_center",
+    "component/discover/new_discover",
+    "component/discover/descover_detail"
   ],
   "subPackages": [],
   "window": {
@@ -28,5 +40,6 @@
   },
   "usingComponents": {
     "tab-bar": "/component/tabBar"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

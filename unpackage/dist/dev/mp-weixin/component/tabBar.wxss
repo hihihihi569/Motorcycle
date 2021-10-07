@@ -30,11 +30,8 @@
   left: 0;
   z-index: 999;
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  justify-content: space-around;
   height: 98rpx;
   box-sizing: border-box;
   border-top: solid 1rpx #ccc;
