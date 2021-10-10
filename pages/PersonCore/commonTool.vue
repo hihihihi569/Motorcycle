@@ -3,8 +3,10 @@
 		<div class="title">常用小工具</div>
 		<div class="serivce">
 			<div class="sericeItem">
-				<img src="../static/mine/line-service.png" style="width:20px;height: 20px;"></img>
-				<p>在线客服</p>
+				<navigator url="../../component/chat/sevice" hover-class="navigator-hover">
+					<img src="../static/mine/line-service.png" style="width:20px;height: 20px;"></img>
+					<p>在线客服</p>
+				</navigator>
 			</div>
 
 			<div class="sericeItem">
@@ -18,8 +20,8 @@
 				<navigator url="../../component/advise/advise" hover-class="navigator-hover">
 
 					<img src="../static/mine/advise.png" style="width:20px;height: 20px;"></img>
-					<p>意见反馈</p>					
-					</navigator>
+					<p>意见反馈</p>
+				</navigator>
 			</div>
 		</div>
 	</view>

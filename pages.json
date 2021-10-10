@@ -229,6 +229,12 @@
 			"style": {			
 				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path": "component/chat/sevice",
+			"style": {			
+				"navigationStyle": "custom"
+			}
 		}
 	],
 	"globalStyle": {
